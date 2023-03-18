@@ -111,8 +111,8 @@ tabs.forEach((tab, index) => {
       tabs.forEach((tab) => {
         tab.classList.remove("active");
       });
-      tabContent[4].classList.add("active");
-      tabs[4].classList.add("active");
+      tabContent[3].classList.add("active");
+      tabs[3].classList.add("active");
     });
   });
 

@@ -16,29 +16,7 @@ xhttp.onreadystatechange = function () {
     dataPortfolio.forEach((data, index) => {
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapper.innerHTML = `
-            <h1 class="text-xl font-medium text-heading">${data.title}</h1>
-            <p class="text-sm text-paragraph font-normal mb-3 mt-1">${data.category}</p>
-            <a href="${data.link}" class="flex items-center text-sm text-primary hover:underline w-fit">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
-                <path
-                  fill-rule="evenodd"
-                  d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-              <span>Click here to play!</span>
-            </a>
-            <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
-            <h2 class="text-base text-heading font-medium mt-7 mb-3">Introduction</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
-            <h2 class="text-base text-heading font-medium mt-7 mb-3">My Contributions</h2>
-            <ul class="list-disc text-sm ml-8 text-paragraph my-4">
-              <li>${data.goals_list[1]}</li>
-              <li>${data.goals_list[2]}</li>
-              <li>${data.goals_list[3]}</li>
-              <li>${data.goals_list[4]}</li>
-              <li>${data.goals_list[5]}</li>
-            </ul>
+            <h1 class="text-xl font-medium text-heading">hello hello</h1>
             `;
       });
     });

@@ -10,7 +10,7 @@ const logo = document.querySelector(".logo img");
 ============================ */
 if (localStorage.getItem("preferredTheme") == "dark-mode") {
   document.body.classList.toggle("dark-mode");
-  logo.src = "assets/images/logo-darkmode.png";
+  logo.src = "assets/images/myLogo.png";
 }
 
 /*  ==================
@@ -51,10 +51,10 @@ darkmodeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   if (document.body.classList.contains("dark-mode")) {
     iconDarkMode.src = "./assets/icons/sun.svg";
-    logo.src = "assets/images/logo-darkmode.png";
+    logo.src = "assets/images/myLogo.png";
     localStorage.setItem("preferredTheme", "dark-mode");
   } else {
-    logo.src = "assets/images/logo.png";
+    logo.src = "assets/images/myLogo.png";
     iconDarkMode.src = "./assets/icons/moon.svg";
     localStorage.removeItem("preferredTheme");
   }

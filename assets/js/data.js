@@ -26,18 +26,20 @@ xhttp.onreadystatechange = function () {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span>Live Preview!</span>
+              <span>Click here to play!</span>
             </a>
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
+            /*
             <ul class="flex flex-col gap-2.5 text-paragraph text-sm">
               <li><b class="font-medium text-heading">Client :</b> ${data.client}</li>
               <li><b class="font-medium text-heading">City :</b> ${data.city}</li>
               <li><b class="font-medium text-heading">Date :</b> ${data.date}</li>
             </ul>
+            */
             <h2 class="text-base text-heading font-medium mt-7 mb-3">Introduction</h2>
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
-            <h2 class="text-base text-heading font-medium mt-7 mb-3">Goals</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_desc[1]}</p>
+            <h2 class="text-base text-heading font-medium mt-7 mb-3">Key mechanics</h2>
+            // <p class="text-sm text-paragraph font-normal text-justify">${data.goals_desc[1]}</p>
             <ul class="list-disc text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>
               <li>${data.goals_list[2]}</li>
@@ -45,7 +47,8 @@ xhttp.onreadystatechange = function () {
               <li>${data.goals_list[4]}</li>
               <li>${data.goals_list[5]}</li>
             </ul>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_desc[2]}</p>
+            // <p class="text-sm text-paragraph font-normal text-justify">${data.goals_desc[2]}</p>
+            /*
             <div class="flex rounded-md items-center gap-1 mt-8">
               <span class="text-heading text-sm font-medium mr-3">Share : </span>
               <a href="#" class="has-tooltip w-[28px] h-[28px] grid place-items-center rounded-md group hover:bg-primary">
@@ -95,6 +98,7 @@ xhttp.onreadystatechange = function () {
                 </svg>
               </a>
             </div>
+            */
             `;
       });
     });

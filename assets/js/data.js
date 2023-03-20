@@ -38,7 +38,7 @@ xhttp.onreadystatechange = function () {
             */
             <h2 class="text-base text-heading font-medium mt-7 mb-3">Introduction</h2>
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
-            <h2 class="text-base text-heading font-medium mt-7 mb-3">Key mechanics</h2>
+            <h2 class="text-base text-heading font-medium mt-7 mb-3">My Contributions</h2>
             // <p class="text-sm text-paragraph font-normal text-justify">${data.goals_desc[1]}</p>
             <ul class="list-disc text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>

@@ -26,7 +26,7 @@ xhttp.onreadystatechange = function () {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span>Click to Play!</span>
+              <span>Live Preview!</span>
             </a>
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
             <ul class="flex flex-col gap-2.5 text-paragraph text-sm">

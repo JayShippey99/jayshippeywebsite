@@ -1,56 +1,14 @@
 {
   "portfolio-data": [
     {
-      "title": "Signals from the Stars",
-      "category": "Sci-fi Puzzle Game",
+      "title": "Startup Development",
+      "category": "Mobile App",
       "link": "#!",
       "image": "1.png",
-      "client": ".",
-      "city": ".",
-      "date": ".",
-      "introduction": "A tesseract has landed on Earth and you've been brought on board the smartest of the smart to decode why it came here and what its trying to tell us. <br> <br> Signals from the Stars, made in Unity, is my capstone project (still currently in development). A tesseract has landed on Earth and you must solve puzzles to make sense of why its here and where it came from. Made with the Unity engine, I'm using this project to push my programming and game design abilities further than ever before. Click the link to be taken to the games itch.io page to play it as is.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
-      "goals_list": {
-        "1": "Lead Programmer",
-        "2": "Custom Physics Based Movement",
-        "3": "Infinite and Random Track",
-        "4": "Camera Movement",
-        "5": "Visual effects",
-      }
-    },
-    {
-      "title": "Sorting Incorporated",
-      "category": "Chaos Management Gme",
-      "link": "#!",
-      "image": "2.png",
-      "client": ".",
-      "city": ".",
-      "date": ".",
-      "introduction": "You just got a new job at the most BORING place in the world! I mean, come on! All you're doing from 9 to 5 is standing at a conveyer line waiting for packages to come down to sort them. How crazy can it get?<br> <br> Sorting Incorporated, made in Unity, started as a way to get more familiar with Unity, specifically with a simple test with the sprite mask. It wound up becoming my first game that I would fully develop front to back. Projects for classes usually lack key things like tutorials and settings and I wanted to bring this game up to the standard for real games. This is my most cohesive project to date and took around 2 months.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
-      "goals_list": {
-        "1": "Solo Development Project",
-        "2": "Design",
-        "3": "Programming",
-        "4": "Art",
-        "5": "Audio"
-      }
-    },
-    {
-      "title": "Slope Shredder",
-      "category": "Endless Runner",
-      "link": "#!",
-      "image": "3.png",
-      "client": ".",
-      "city": ".",
-      "date": ".",
-      "introduction": "Play as Shred McTwist and shred as far as you can down the mountain without getting caught by the avalanche! In this endless runner, you do gnarly tricks on ramps to gain boost and pass through slolams to gain upgrade points. How far will you shred?<br> <br> Slope Shredder, made in Unreal Engine, was a student-run project made over the course of a semester. The class's original intent was to work with a company on their game, but we felt dissatisfied with how things were going, so we quickly cut ties and decided to make our own game as a class. Our project was such a success that the class was reworked to function this way for future classes. The project was originally built for mobile and made its way onto the Google Play store for Android. Later, I tweaked it to run on PC as well. My class was a small focused talented group and I'm so fortunate I was able to be part of it.",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -64,66 +22,108 @@
       }
     },
     {
-      "title": "Chain Solitaire",
-      "category": "Card Game",
+      "title": "E-Learning Platform",
+      "category": "Product Design",
+      "link": "#!",
+      "image": "2.png",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
+      "goals_desc": {
+        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
+        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      },
+      "goals_list": {
+        "1": "Improve Project Productivity and Performance",
+        "2": "Improve Team Communication and Collaboration",
+        "3": "Expand Your Project Management Knowledge",
+        "4": "Execute High-Impact Projects",
+        "5": "Maximize Your Contributions within Your Role"
+      }
+    },
+    {
+      "title": "Task Management",
+      "category": "Product Design",
+      "link": "#!",
+      "image": "3.png",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
+      "goals_desc": {
+        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
+        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      },
+      "goals_list": {
+        "1": "Improve Project Productivity and Performance",
+        "2": "Improve Team Communication and Collaboration",
+        "3": "Expand Your Project Management Knowledge",
+        "4": "Execute High-Impact Projects",
+        "5": "Maximize Your Contributions within Your Role"
+      }
+    },
+    {
+      "title": "News and Magazine",
+      "category": "Web App",
       "link": "#!",
       "image": "4.png",
-      "client": ".",
-      "city": ".",
-      "date": ".",
-      "introduction": "In this Solitaire variation, you get to look through the whole deck for patterns of cards. Different patterns allow you to remove different cards, and your goal is to get your hand down to 2 or less cards. Think ahead and remove cards to set up combo chains. <br> <br> Chain Solitaire, made in Unity, is an original Solitaire variation I came up with. The idea started from me playing One Hand Solitaire in real life and making tweak after tweak to the rules until it felt like a Solitaire game that wasn't just dependant on what your shuffle was. This was a 2 month solo project. Before Chain Solitiare, I would design games based on what I was capable of. For this game I had a blueprint for the gameplay that I needed to obey, and it was a success. What I'm most proud of with this game is that people can take the rules and play it with a real deck of cards.",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Solo Development Project",
-        "2": "Design",
-        "3": "Programming",
-        "4": "All Art (aside from the cards)",
-        "5": "Audio"
+        "1": "Improve Project Productivity and Performance",
+        "2": "Improve Team Communication and Collaboration",
+        "3": "Expand Your Project Management Knowledge",
+        "4": "Execute High-Impact Projects",
+        "5": "Maximize Your Contributions within Your Role"
       }
     },
     {
-      "title": "Ooze Crusader",
-      "category": "Adventure Game",
+      "title": "Real Time Software",
+      "category": "Web App",
       "link": "#!",
       "image": "5.png",
-      "client": ".",
-      "city": ".",
-      "date": ".",
-      "introduction": "Oh no! An evil corporation has set up its toxic machines in a peaceful swamp! You must do something! Grab your water pack, clear out the ooze and machines, and return the swamp to its former glory! <br> <br> Ooze Crusader, made in Unreal Engine, was made for a level design class. Each team had at least one artist and at least one programmer. For our group, I was the sole programmer. Ooze Crusader is an older project at this point, but still contains a lot of practical mechanics useful for other games.",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Weapon Behavior",
-        "2": "Checkpoint System",
-        "3": "Boss Fight",
-        "4": "Enemy AI",
-        "5": "Health System"
+        "1": "Improve Project Productivity and Performance",
+        "2": "Improve Team Communication and Collaboration",
+        "3": "Expand Your Project Management Knowledge",
+        "4": "Execute High-Impact Projects",
+        "5": "Maximize Your Contributions within Your Role"
       }
     },
     {
-      "title": "Battle Tag",
-      "category": "Arcade Game",
+      "title": "Music Player",
+      "category": "Web App",
       "link": "#!",
       "image": "6.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
-      "introduction": "Battle Tag takes the classic game of tag and adds an asymmetrical twist which makes for an interesting, dynamic experience. Each round is 30 seconds and the tagger has many tricks up its sleeve to keep you on the move. If tag had a boss fight, this would be it. <br> <br> Battle Tag, made in Processing, is my oldest project that I still show off with confidence. It got great remarks from my professor and on the rare occasion, I see my relatives playing it. I love designing minimalist, replayable games. This is arguably my most fun one.",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Solo Development Project",
-        "2": "Design",
-        "3": "Programming",
-        "4": "Art",
-        "5": "Audio"
+        "1": "Improve Project Productivity and Performance",
+        "2": "Improve Team Communication and Collaboration",
+        "3": "Expand Your Project Management Knowledge",
+        "4": "Execute High-Impact Projects",
+        "5": "Maximize Your Contributions within Your Role"
       }
     },
     {
@@ -155,7 +155,7 @@
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
-      "introduction": "At vero eos et accusamus odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
+      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"

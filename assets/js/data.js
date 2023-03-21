@@ -12,7 +12,7 @@ xhttp.onreadystatechange = function () {
     let dataPortfolio = data["portfolio-data"];
     let dataBlog = data["blog-data"];
 
-    // Portfolio data
+    // Portfolio dataa
     dataPortfolio.forEach((data, index) => {
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapper.innerHTML = `

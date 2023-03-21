@@ -29,11 +29,6 @@ xhttp.onreadystatechange = function () {
               <span>Click to Play!</span>
             </a>
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
-            <ul class="flex flex-col gap-2.5 text-paragraph text-sm">
-              <li><b class="font-medium text-heading">Client :</b> ${data.client}</li>
-              <li><b class="font-medium text-heading">City :</b> ${data.city}</li>
-              <li><b class="font-medium text-heading">Date :</b> ${data.date}</li>
-            </ul>
             <h2 class="text-base text-heading font-medium mt-7 mb-3">Introduction</h2>
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
             <h2 class="text-base text-heading font-medium mt-7 mb-3">Goals</h2>

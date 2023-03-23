@@ -98,8 +98,8 @@ tabs.forEach((tab, index) => {
         tab.classList.remove("active");
       });
 
-      tabContent[2].classList.add("active");
-      tabs[2].classList.add("active");
+      tabContent[1].classList.add("active");
+      tabs[1].classList.add("active");
     });
   });
 
@@ -111,8 +111,8 @@ tabs.forEach((tab, index) => {
       tabs.forEach((tab) => {
         tab.classList.remove("active");
       });
-      tabContent[3].classList.add("active");
-      tabs[3].classList.add("active");
+      tabContent[2].classList.add("active");
+      tabs[2].classList.add("active");
     });
   });
 
@@ -248,13 +248,13 @@ window.onclick = function (event) {
     Email JS
 ================== */
 (function () {
-  emailjs.init("YOUR_PUBLIC_KEY");
+  emailjs.init("XUECTH1niQIqCkar9");
 })();
 document.getElementById("contact-form").addEventListener("submit", function (event) {
   event.preventDefault();
   const alertEmail = document.querySelector("#alert-email");
-  const serviceID = "YOUR_SERVICE_ID";
-  const templateID = "YOUR_TEMPLATE_ID";
+  const serviceID = "service_a6vv3yv";
+  const templateID = "template_eydijnw";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     function () {

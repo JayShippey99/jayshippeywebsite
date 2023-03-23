@@ -98,8 +98,8 @@ tabs.forEach((tab, index) => {
         tab.classList.remove("active");
       });
 
-      tabContent[2].classList.add("active");
-      tabs[2].classList.add("active");
+      tabContent[1].classList.add("active");
+      tabs[1].classList.add("active");
     });
   });
 
@@ -111,8 +111,8 @@ tabs.forEach((tab, index) => {
       tabs.forEach((tab) => {
         tab.classList.remove("active");
       });
-      tabContent[3].classList.add("active");
-      tabs[3].classList.add("active");
+      tabContent[2].classList.add("active");
+      tabs[2].classList.add("active");
     });
   });
 

@@ -85,24 +85,24 @@
       }
     },
     {
-      "title": "Ooze Crusader",
-      "category": "Adventure Game",
-      "link": "https://jay-shippey.itch.io/ooze-crusader",
+      "title": "Desolate",
+      "category": "Horror RPG",
+      "link": "https://jay-shippey.itch.io/desolate",
       "image": "5.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
-      "introduction": "Oh no! An evil corporation has set up its toxic machines in a peaceful swamp! You must do something! Grab your water pack, clear out the ooze and machines, and return the swamp to its former glory! <br> <br> Ooze Crusader, made in Unreal Engine, was made for a level design class. Each team had at least one artist and at least one programmer. For our group, I was the sole programmer. Ooze Crusader is an older project at this point, but still contains a lot of practical mechanics useful for other games.",
+      "introduction": "You wake up in a pitch black room with no memory of how you got there (of course you do). As you explore, you piece together more of your past and explore the cursed pyramid you've found yourself in. <br> <br> Desolate, made in Unity, is a discontinued demo for a horror RPG. Desolate was my first big project I tackled in Unity. I was the solo programmer for the group. When development first started, I was attempting to build off of Unity's premade RPG tutorial project. The start of the project was rocky because of this. I was trying to understand a professional level project as pretty much a newbie. However, as the project progressed, I started building mechanics from scratch and I began to pick up pace in the way I expected from the start. In the end I learned some lessons and I was able to bring the project together in a really cool way.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Team Lead",
-        "2": "Weapon Behavior",
-        "3": "Checkpoint System",
-        "4": "Boss Fight",
-        "5": "Enemy AI"
+        "1": "Lead Programmer",
+        "2": "Inventory System",
+        "3": "Character Dialogue",
+        "4": "Dialogue Triggers",
+        "5": "Audio Programming"
       }
     },
     {

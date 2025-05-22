@@ -12,7 +12,7 @@ xhttp.onreadystatechange = function () {
     let dataPortfolio = data["portfolio-data"];
     let dataBlog = data["blog-data"];
 
-    // Portfolio dataa
+    // Portfolio data
     dataPortfolio.forEach((data, index) => {
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapper.innerHTML = `
@@ -32,6 +32,12 @@ xhttp.onreadystatechange = function () {
             <h2 class="text-base text-heading font-medium mt-7 mb-3">Background</h2>
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
             <h2 class="text-base text-heading font-medium mt-7 mb-3">My Contributions</h2>
+
+            // Hypothetical code:
+            // something.forEach((data.goals_list, index) => {
+            // <li>${data.goals_list[index]}</li>
+            // });
+            
             <ul class="list-disc text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>
               <li>${data.goals_list[2]}</li>

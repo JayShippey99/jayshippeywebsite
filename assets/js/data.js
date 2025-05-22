@@ -15,7 +15,7 @@ xhttp.onreadystatechange = function () {
       
     // Portfolio data
     dataPortfolio.forEach((data, index) => {
-        // let portfolioGoalsList = dataPortfolio["goals_list"]; // this might not get the correct goals list
+        // let portfolioGoalsList = dataPortfolio["goals_list"]; // this might not get the correct goals list .
         
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapper.innerHTML = `

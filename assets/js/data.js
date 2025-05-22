@@ -9,7 +9,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var data = JSON.parse(xhttp.responseText);
-    let dataPortfolio = data["portfolio-data"]; // this pulls the portfolio section and all the details from the data.json into the dataPortfolio variable .
+    let dataPortfolio = data["portfolio-data"]; // this pulls the portfolio section and all the details from the data.json into the dataPortfolio variable
     let dataBlog = data["blog-data"];
     
       

@@ -1155,8 +1155,12 @@ body.theme-indigo {
   resize: both;
 }
 
+.list-blank{
+  list-style-type: none; /* I added this class to not override things! */
+}
+
 .list-disc{
-  list-style-type: disc;
+  list-style-type: disc; /* disc is the default value for the list style type, the bullet point is a filled circle. we could do 'none' instead! */
 }
 
 .grid-cols-1{

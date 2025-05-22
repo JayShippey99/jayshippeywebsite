@@ -43,7 +43,7 @@ xhttp.onreadystatechange = function () {
 
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more -->
-            <ul class="list-blank text-sm ml-8 text-paragraph my-4">
+            <ul class="list-blank"> <!-- text-sm ml-8 text-paragraph my-4 -->
               <p>${data.goals_list[1]}</p>
               <li>${data.goals_list[2]}</li>
               <h2>${data.goals_list[3]}</h2>

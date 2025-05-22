@@ -40,8 +40,10 @@ xhttp.onreadystatechange = function () {
              something.forEach((dataPortfolio, index) => {
              <li>${data.goals_list[index]}</li>
              }); -->
-            
-            <ul class="list-disc text-sm ml-8 text-paragraph my-4">
+
+            <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
+            what I would like to do is have the bullet point be a thing and then be able to explain it more -->
+            <ul class="list-blank text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>
               <li>${data.goals_list[2]}</li>
               <li>${data.goals_list[3]}</li>

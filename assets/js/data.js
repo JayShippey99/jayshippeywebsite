@@ -36,10 +36,10 @@ xhttp.onreadystatechange = function () {
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
             <h2 class="text-base text-heading font-medium mt-7 mb-3">My Contributions</h2>
 
-            // Hypothetical code:
-            // something.forEach((dataPortfolio, index) => {
-            // <li>${data.goals_list[index]}</li>
-            // });
+            <!-- Hypothetical code:
+             something.forEach((dataPortfolio, index) => {
+             <li>${data.goals_list[index]}</li>
+             }); -->
             
             <ul class="list-disc text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>

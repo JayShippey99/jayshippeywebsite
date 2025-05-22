@@ -44,13 +44,13 @@ xhttp.onreadystatechange = function () {
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small-->
-            <h3>${data.goals_list[1]}</h3>
-            <p>${data.goals_list[1]}</p>
+            <h2 class="text-base text-heading font-medium mt-7 mb-3">${data.goals_list[1]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
             <h2>${data.goals_list[2]}</h2>
             <p>${data.goals_list[3]}</p>
             
             <!--
-            <ul class="list-blank text-sm ml-8 text-paragraph my-4"> <!-- text-sm ml-8 text-paragraph my-4 -->
+            <ul class="list-blank text-sm ml-8 text-paragraph my-4">
               <li><h2>${data.goals_list[1]}</h2></li>
               <li><p>${data.goals_list[1]}</p></li>
               <li>${data.goals_list[2]}</li>
@@ -62,7 +62,9 @@ xhttp.onreadystatechange = function () {
               <li>${data.goals_list[8]}</li>
               <li>${data.goals_list[9]}</li>
               <li>${data.goals_list[10]}</li>
-            </ul> -->
+            </ul>
+            -->
+            
             `;
       });
     });

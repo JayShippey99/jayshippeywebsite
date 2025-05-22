@@ -54,6 +54,7 @@ xhttp.onreadystatechange = function () {
               <li>${data.goals_list[8]}</li>
               <li>${data.goals_list[9]}</li>
               <li>${data.goals_list[10]}</li>
+              <li>${data.goals_list[11]}</li>
             </ul>
             `;
       });

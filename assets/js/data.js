@@ -9,11 +9,14 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var data = JSON.parse(xhttp.responseText);
-    let dataPortfolio = data["portfolio-data"];
+    let dataPortfolio = data["portfolio-data"]; // this pulls the portfolio section and all the details from the data.json into the dataPortfolio variable
     let dataBlog = data["blog-data"];
-
+    
+      
     // Portfolio data
     dataPortfolio.forEach((data, index) => {
+        // let portfolioGoalsList = dataPortfolio["goals_list"]; // this might not get the correct goals list
+        
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapper.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
@@ -34,7 +37,7 @@ xhttp.onreadystatechange = function () {
             <h2 class="text-base text-heading font-medium mt-7 mb-3">My Contributions</h2>
 
             // Hypothetical code:
-            // something.forEach((data.goals_list, index) => {
+            // something.forEach((dataPortfolio, index) => {
             // <li>${data.goals_list[index]}</li>
             // });
             
@@ -44,6 +47,11 @@ xhttp.onreadystatechange = function () {
               <li>${data.goals_list[3]}</li>
               <li>${data.goals_list[4]}</li>
               <li>${data.goals_list[5]}</li>
+              <li>${data.goals_list[6]}</li>
+              <li>${data.goals_list[7]}</li>
+              <li>${data.goals_list[8]}</li>
+              <li>${data.goals_list[9]}</li>
+              <li>${data.goals_list[10]}</li>
             </ul>
             `;
       });

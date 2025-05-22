@@ -15,6 +15,7 @@
       },
       "goals_list": {
         "1": "Project Manager, Lead Designer, Lead Programmer",
+        "A": "I lead the team and stuff",
         "2": "Logic Puzzle Mechanics",
         "3": "Animatable Mesh made with Code",
         "4": "Visual Effects and Shader Materials",
@@ -44,7 +45,12 @@
         "2": "Design",
         "3": "Programming",
         "4": "Art",
-        "5": "Audio"
+        "5": "Audio",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -65,7 +71,12 @@
         "2": "Custom Physics-based Movement",
         "3": "Infinite and Random Track",
         "4": "Camera Movement",
-        "5": "Materials for Fire Trail and Avalanche Powder"
+        "5": "Materials for Fire Trail and Avalanche Powder",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -86,7 +97,12 @@
         "2": "Design",
         "3": "Programming",
         "4": "Art (aside from the cards)",
-        "5": "Audio"
+        "5": "Audio",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -107,7 +123,12 @@
         "2": "Inventory System",
         "3": "Character Dialogue",
         "4": "Dialogue Triggers",
-        "5": "Audio Programming"
+        "5": "Audio Programming",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -128,7 +149,12 @@
         "2": "Design",
         "3": "Programming",
         "4": "Art",
-        "5": "Audio"
+        "5": "Audio",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -149,7 +175,12 @@
         "2": "Improve Team Communication and Collaboration",
         "3": "Expand Your Project Management Knowledge",
         "4": "Execute High-Impact Projects",
-        "5": "Maximize Your Contributions within Your Role"
+        "5": "Maximize Your Contributions within Your Role",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -170,7 +201,12 @@
         "2": "Improve Team Communication and Collaboration",
         "3": "Expand Your Project Management Knowledge",
         "4": "Execute High-Impact Projects",
-        "5": "Maximize Your Contributions within Your Role"
+        "5": "Maximize Your Contributions within Your Role",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     }
   ],

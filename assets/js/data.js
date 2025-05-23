@@ -45,7 +45,7 @@ xhttp.onreadystatechange = function () {
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small ...-->
             
-            <ul class="list-blank text-sm ml-8 text-paragraph my-4">
+            <ul class="list-disc text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>
               <li>${data.goals_list[2]}</li>
               <li>${data.goals_list[3]}</li>

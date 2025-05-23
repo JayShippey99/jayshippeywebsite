@@ -1,10 +1,48 @@
 {
   "portfolio-data": [
     {
+      "title": "Hamster Hustle",
+      "category": "Multiplayer Party Game",
+      "link": "https://store.steampowered.com/app/3597930/Hamster_Hustle/",
+      "image": "Hustle.png",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "Hamster Hustle is a fast-paced, online multiplayer party game where you play tag as hamsters! The game supports up to 12 players. You can customize your hamster and emote to taunt other players. Its a perfect blend of chaos and cuteness for a lot of fun! <br> <br>Hamster Hustle is Dreamship Games' first published game on Steam and mine as well. The journey was surreal. Dreamship started with 2 projects that haven't seen the light of day yet. We were feeling very overwhelmed and burnt out at this point. What we learned during this time was incredibly valuable though. We started a new game, this time staying within our 5 person scope and 3 months later we released the game onto steam. Hamster Hustle has completely changed how I view myself as a developer. I truly feel as though I am 'in the industry' now. Even though I'm not working on a massive game with a massive company, even though we still have so much room to grow, the team and I, we did it. Releasing this game was a full on team effort. Some of us were figuring out all the Steam licensing, others were making social media posts, my big thing became leading the team by keeping ourselves organized and focused on the task ahead of us. Dreamship before and after making this game are completely different and we're only going to keep getting better.",
+      "goals_desc": {
+        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
+        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      },
+      "goals_list": {
+        "1": "Project Manager, Technical Artist, Level Designer, Programmer",
+        "2": "Shader Materials",
+        "3": "Lighting and Post Processing",
+        "4": "Optimization",
+        "5": "Asset Verification",
+        "6": "Hamster Customizer",
+        "7": "Tool Builder",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "When our team was closing in on our release date, I got our team's tasks organized on Jira and structured meetings better. This included quick brainstorms with the team for any new assets we'd need and reviewing newly added assets. I also began to wear the art direction hat a little bit here.",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      }
+    },
+    {
       "title": "Signals from the Stars",
       "category": "Sci-fi Puzzle Game",
       "link": "https://jay-shippey.itch.io/signals-from-the-stars",
-      "image": "1.png",
+      "image": "Signals.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
@@ -18,14 +56,31 @@
         "2": "Logic Puzzle Mechanics",
         "3": "Animatable Mesh made with Code",
         "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System"
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
       "title": "Sorting Incorporated",
       "category": "Chaos Management Game",
       "link": "https://jay-shippey.itch.io/sorting-incorporated",
-      "image": "2.png",
+      "image": "Sorting.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
@@ -39,14 +94,31 @@
         "2": "Design",
         "3": "Programming",
         "4": "Art",
-        "5": "Audio"
+        "5": "Audio",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
       "title": "Slope Shredder",
       "category": "Endless Runner",
       "link": "https://jay-shippey.itch.io/slope-shredder",
-      "image": "3.png",
+      "image": "Shredder.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
@@ -60,14 +132,31 @@
         "2": "Custom Physics-based Movement",
         "3": "Infinite and Random Track",
         "4": "Camera Movement",
-        "5": "Materials for Fire Trail and Avalanche Powder"
+        "5": "Materials for Fire Trail and Avalanche Powder",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
       "title": "Chain Solitaire",
       "category": "Card Game",
       "link": "https://jay-shippey.itch.io/chain-solitaire",
-      "image": "4.png",
+      "image": "Solitaire.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
@@ -81,14 +170,31 @@
         "2": "Design",
         "3": "Programming",
         "4": "Art (aside from the cards)",
-        "5": "Audio"
+        "5": "Audio",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
       "title": "Desolate",
       "category": "Horror RPG",
       "link": "https://jay-shippey.itch.io/desolate",
-      "image": "5.png",
+      "image": "Desolate.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
@@ -102,14 +208,31 @@
         "2": "Inventory System",
         "3": "Character Dialogue",
         "4": "Dialogue Triggers",
-        "5": "Audio Programming"
+        "5": "Audio Programming",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
       "title": "Battle Tag",
       "category": "Arcade Game",
       "link": "https://jay-shippey.itch.io/battle-tag",
-      "image": "6.png",
+      "image": "Tag.png",
       "client": "Albert Alexander",
       "city": "Los Angeles, LA",
       "date": "December 24, 2022",
@@ -123,7 +246,24 @@
         "2": "Design",
         "3": "Programming",
         "4": "Art",
-        "5": "Audio"
+        "5": "Audio",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -144,7 +284,24 @@
         "2": "Improve Team Communication and Collaboration",
         "3": "Expand Your Project Management Knowledge",
         "4": "Execute High-Impact Projects",
-        "5": "Maximize Your Contributions within Your Role"
+        "5": "Maximize Your Contributions within Your Role",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     },
     {
@@ -165,7 +322,24 @@
         "2": "Improve Team Communication and Collaboration",
         "3": "Expand Your Project Management Knowledge",
         "4": "Execute High-Impact Projects",
-        "5": "Maximize Your Contributions within Your Role"
+        "5": "Maximize Your Contributions within Your Role",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
       }
     }
   ],

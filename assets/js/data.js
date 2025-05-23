@@ -9,11 +9,14 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var data = JSON.parse(xhttp.responseText);
-    let dataPortfolio = data["portfolio-data"];
+    let dataPortfolio = data["portfolio-data"]; // this pulls the portfolio section and all the details from the data.json into the dataPortfolio variable 
     let dataBlog = data["blog-data"];
-
-    // Portfolio dataa
+    
+      
+    // Portfolio data
     dataPortfolio.forEach((data, index) => {
+        // let portfolioGoalsList = dataPortfolio["goals_list"]; // this might not get the correct goals list   
+        
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapper.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
@@ -29,16 +32,71 @@ xhttp.onreadystatechange = function () {
               <span>Click to Play!</span>
             </a>
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
-            <h2 class="text-base text-heading font-medium mt-7 mb-3">Background</h2>
+            <h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
-            <h2 class="text-base text-heading font-medium mt-7 mb-3">My Contributions</h2>
-            <ul class="list-disc text-sm ml-8 text-paragraph my-4">
-              <li>${data.goals_list[1]}</li>
+            <h2 class="text-lg text-heading font-medium mt-7 mb-3">My Contributions</h2>
+
+            <!-- Hypothetical code:
+             something.forEach((dataPortfolio, index) => {
+             <li>${data.goals_list[index]}</li>
+             }); -->
+
+            <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
+            what I would like to do is have the bullet point be a thing and then be able to explain it more 
+            setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->
+
+            <!-- USE THIS FOR NOW -->
+            <h2 class="text-base text-heading font-medium">${data.goals_list[1]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[2]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[3]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[4]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[5]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[6]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[7]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[8]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[9]}</h2>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[10]}</h2>
+
+
+            <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES
+            <h2 class="text-base text-heading font-medium">${data.goals_list[1]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[2]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[2]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[3]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[3]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[4]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[4]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[5]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[5]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[6]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[6]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[7]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[7]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[8]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[8]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[9]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[9]}</p>
+            <h2 class="text-base text-heading font-medium">${data.goals_list[10]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[10]}</p>
+            -->
+            
+            <!--
+            <ul class="list-blank text-sm ml-8 text-paragraph my-4">
+              <li><h2 class="text-base text-heading font-medium mt-7">${data.goals_list[1]}</h2></li>
+              <li><p>${data.goals_list[1]}</p></li>
               <li>${data.goals_list[2]}</li>
               <li>${data.goals_list[3]}</li>
               <li>${data.goals_list[4]}</li>
               <li>${data.goals_list[5]}</li>
+              <li>${data.goals_list[6]}</li>
+              <li>${data.goals_list[7]}</li>
+              <li>${data.goals_list[8]}</li>
+              <li>${data.goals_list[9]}</li>
+              <li>${data.goals_list[10]}</li>
             </ul>
+            -->
+            
             `;
       });
     });

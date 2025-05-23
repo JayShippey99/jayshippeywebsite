@@ -47,7 +47,6 @@ xhttp.onreadystatechange = function () {
             
             <ul class="list-blank text-sm ml-8 text-paragraph my-4">
               <li>${data.goals_list[1]}</li>
-              <li>${data.goals_list[1]}</li>
               <li>${data.goals_list[2]}</li>
               <li>${data.goals_list[3]}</li>
               <li>${data.goals_list[4]}</li>

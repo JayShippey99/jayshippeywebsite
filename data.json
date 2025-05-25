@@ -1,6 +1,82 @@
 {
   "portfolio-data": [
     {
+      "title": "Hamster Hustle",
+      "category": "Multiplayer Party Game",
+      "link": "https://store.steampowered.com/app/3597930/Hamster_Hustle/",
+      "image": "Hustle.png",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "Hamster Hustle is a fast-paced, online multiplayer party game where you play tag as hamsters! It supports up to 12 players and you can customize your hamster and emote to taunt other players. Its a perfect blend of chaos and cuteness for a lot of fun!<br> <br>Hamster Hustle is Dreamship Games' first published game on Steam and mine as well. Hamster Hustle has gotten 60k+ sales, 10k+ players, reached #3 on the new and trending tab for free games on Steam, and we've had a few popular YouTubers play our game! The reception completely blew us away. This isn't the first project Dreamship has worked on, however. But developing this game is when Dreamship really started to find its groove. We took everything we learned from our past projects and started fresh. 3 months later we put Hamster Hustle up on Steam. Releasing this game was a full on team effort. Since getting this game up I feel a whole new sense of self as a developer and a new sense of professionalism.",
+      "goals_desc": {
+        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
+        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      },
+      "goals_list": {
+        "1": "Project Manager, Technical Artist, Level Designer, Programmer",
+        "2": "Shader Materials",
+        "3": "Lighting and Post Processing",
+        "4": "Optimization",
+        "5": "Asset Verification",
+        "6": "Hamster Customizer",
+        "7": "Tool Builder",
+        "8": "UI Programming",
+        "9": "",
+        "10": ""
+      },
+      "goals_details": {
+        "1": "When our team was closing in on our release date, I got our team's tasks organized on Jira and structured meetings better. This included quick brainstorms with the team for any new assets we'd need and reviewing newly added assets. I also began to wear the art direction hat a little bit here.",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      }
+    },
+    {
+      "title": "Where's that Clown?!",
+      "category": "Top-down Arcade Game",
+      "link": "https://store.steampowered.com/app/3730960/Wheres_That_Clown/?curator_clanid=4777282",
+      "image": "Clown.png",
+      "client": "Albert Alexander",
+      "city": "Los Angeles, LA",
+      "date": "December 24, 2022",
+      "introduction": "Where's that Clown?! is a frantic top down arcade game where you must keep impatient kids entertained throughout chaotic birthday party venues. Dash around, dodging toddlers and parents as you try to get the highest score! <br> <br>Where's that Clown?! started as a game jam. There was about 15 people that worked on the jam, one of them being a programmer, that person being me. The game idea started with me saying 'Whatever idea we land on I need to be able to make the mechanic in 5 hours'. I think this mentality is what made the game go so well. I've always wanted to truly polish a game jam within the time frame and with this game we were able to do just that. So we had an incredibly put together game by the end of the 4 day jam and we saw the potential to take the game even further. So for the next two months a few of us we were slowly adding more content such as powerups and a new level. About a year later, that game jam team goes by 'Hivemind Labs' and Where's that Clown?! will be Hivemind's first published game on steam!",
+      "goals_desc": {
+        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
+        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+      },
+      "goals_list": {
+        "1": "Programmer, Tech Artist",
+        "2": "Gameplay Programming",
+        "3": "Music",
+        "4": "Controller Compatibility",
+        "5": "Animation Programming",
+        "6": "Power Ups",
+        "7": "UI Programming",
+        "8": "High Score and Saving Systems",
+        "9": "Environment Shaders",
+        "10": "Character Shaders"
+      },
+      "goals_details": {
+        "1": "",
+        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
+        "3": "Animatable Mesh made with Code",
+        "4": "Visual Effects and Shader Materials",
+        "5": "Dialogue System",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      }
+    },
+    {
       "title": "Signals from the Stars",
       "category": "Sci-fi Puzzle Game",
       "link": "https://jay-shippey.itch.io/signals-from-the-stars",
@@ -209,82 +285,6 @@
         "3": "Programming",
         "4": "Art",
         "5": "Audio",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": ""
-      },
-      "goals_details": {
-        "1": "",
-        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
-        "3": "Animatable Mesh made with Code",
-        "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": ""
-      }
-    },
-        {
-      "title": "Hamster Hustle",
-      "category": "Multiplayer Party Game",
-      "link": "https://store.steampowered.com/app/3597930/Hamster_Hustle/",
-      "image": "Hustle.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
-      "introduction": "Hamster Hustle is a fast-paced, online multiplayer party game where you play tag as hamsters! The game supports up to 12 players. You can customize your hamster and emote to taunt other players. Its a perfect blend of chaos and cuteness for a lot of fun! <br> <br>Hamster Hustle is Dreamship Games' first published game on Steam and mine as well. The journey was surreal. Dreamship started with 2 projects that haven't seen the light of day (yet?). We got very overwhelmed and burnt out. However, what we learned during this time was incredibly valuable. We started a new game, this time staying within our 5 person scope and 3 months later we released the game onto steam. Hamster Hustle has completely changed how I view myself as a developer. I truly feel as though I am 'in the industry' now. Even though I'm not working on a massive game with a massive company, even though we still have so much room to grow, the team and I, we did it. Releasing this game was a full on team effort. Some of us were figuring out all the Steam licensing, others were making social media posts, my big thing became leading the team by keeping ourselves organized and focused on the tasks ahead of us. Dreamship before and after making this game are completely different and we're only going to keep getting better.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
-      "goals_list": {
-        "1": "Project Manager, Technical Artist, Level Designer, Programmer",
-        "2": "Shader Materials",
-        "3": "Lighting and Post Processing",
-        "4": "Optimization",
-        "5": "Asset Verification",
-        "6": "Hamster Customizer",
-        "7": "Tool Builder",
-        "8": "",
-        "9": "",
-        "10": ""
-      },
-      "goals_details": {
-        "1": "When our team was closing in on our release date, I got our team's tasks organized on Jira and structured meetings better. This included quick brainstorms with the team for any new assets we'd need and reviewing newly added assets. I also began to wear the art direction hat a little bit here.",
-        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
-        "3": "Animatable Mesh made with Code",
-        "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": ""
-      }
-    },
-    {
-      "title": "Chat Message",
-      "category": "UI/UX",
-      "link": "#!",
-      "image": "8.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
-      "introduction": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
-      "goals_list": {
-        "1": "Improve Project Productivity and Performance",
-        "2": "Improve Team Communication and Collaboration",
-        "3": "Expand Your Project Management Knowledge",
-        "4": "Execute High-Impact Projects",
-        "5": "Maximize Your Contributions within Your Role",
         "6": "",
         "7": "",
         "8": "",

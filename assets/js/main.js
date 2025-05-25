@@ -179,10 +179,14 @@ var swiper = new Swiper(".swiperClientSays", {
     Shuffle JS
 ================== */
 const Shuffle = window.Shuffle;
-const element = document.querySelector("#wrapper-portfolio");
+const element1 = document.querySelector("#wrapper-publishedGames"); // This code is insanely lame, but for each section I want to add, I'll need to make a new ID and copy and paste new functions to organize it below
+const element2 = document.querySelector("#wrapper-otherGames");
 const tabPortfolio = document.querySelectorAll(".tab-portfolio");
 
-const shuffleInstance = new Shuffle(element, {
+const shuffleInstance1 = new Shuffle(element1, {
+  itemSelector: ".item-portfolio",
+});
+const shuffleInstance2 = new Shuffle(element2, {
   itemSelector: ".item-portfolio",
 });
 
@@ -193,7 +197,19 @@ tabPortfolio.forEach((tab, index) => {
       tab.classList.remove("text-primary");
     });
     var attr = tab.getAttribute("data-target");
-    shuffleInstance.filter(attr);
+    shuffleInstance1.filter(attr);
+    tabPortfolio[index].classList.add("text-primary");
+  });
+});
+
+tabPortfolio.forEach((tab, index) => {
+  tab.addEventListener("click", (e) => {
+    e.preventDefault();
+    tabPortfolio.forEach((tab) => {
+      tab.classList.remove("text-primary");
+    });
+    var attr = tab.getAttribute("data-target");
+    shuffleInstance2.filter(attr);
     tabPortfolio[index].classList.add("text-primary");
   });
 });

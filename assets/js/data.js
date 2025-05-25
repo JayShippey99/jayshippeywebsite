@@ -46,16 +46,16 @@ xhttp.onreadystatechange = function () {
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->
 
             <!-- USE THIS FOR NOW -->
-            <h2 class="text-base text-heading font-medium">${data.goals_list[1]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[2]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[3]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[4]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[5]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[6]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[7]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[8]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[9]}</h2>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[10]}</h2>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[2]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[3]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[4]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[5]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[6]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[7]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[8]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[9]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[10]}</p>
 
 
             <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES

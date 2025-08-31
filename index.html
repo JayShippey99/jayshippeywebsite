@@ -183,7 +183,11 @@
           <div class="menu-list absolute top-20 right-5 z-10 hidden w-full max-w-[180px] rounded-md bg-theme p-5 text-sm text-paragraph drop-shadow-3xl sm:static sm:z-0 sm:flex sm:w-auto sm:max-w-none sm:p-0 sm:drop-shadow-none">
             <ul class="flex flex-col items-center gap-1 font-medium sm:flex-row sm:gap-1 xl:gap-3">
               <li>
-                <span class="tab-toggle active flex w-[140px] cursor-pointer items-center justify-start rounded-md py-2 px-4 hover:bg-body hover:text-paragraph sm:w-auto sm:px-3 sm:py-2">Portfolio</span>
+                <span class="tab-toggle active flex w-[140px] cursor-pointer items-center justify-start rounded-md py-2 px-4 hover:bg-body hover:text-paragraph sm:w-auto sm:px-3 sm:py-2">Programming Portfolio</span>
+              </li>
+
+              <li>
+                <span class="tab-toggle flex w-[140px] cursor-pointer items-center justify-start rounded-md py-2 px-4 hover:bg-body hover:text-paragraph sm:w-auto sm:px-3 sm:py-2">Tech Art Portfolio</span>
               </li>
               <!--
               <li>
@@ -231,15 +235,13 @@
           -->
           <!-- Resume END -->
 
-          <!-- Portfolio START --> <!-- I need this to show first-->
+          <!-- Programming Portfolio START --> <!-- I need this to show first-->
           <section class="tab-content animate__animated animate__fadeIn active hidden">
             <h2 class="mb-3 text-2xl font-semibold text-heading sm:ml-[10px]">Demo Reel</h2>
-            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/820887860?h=a515b8c6fe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jay Shippey - Game Programmer Demo Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/820887860?h=a515b8c6fe&amp;autoplay=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jay Shippey - Game Programmer Demo Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             <!--<iframe src="https://player.vimeo.com/video/814797692?h=a4c95ac3f4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>--> <!-- bookmark -->
             <h2 class="mb-3 text-2xl font-semibold text-heading sm:ml-[10px]"></h2>
-           
-           
-           
+
             <h2 class="mb-3 text-2xl font-semibold text-heading sm:ml-[10px]">Published Games</h2>
             <!-- Removing the headers until further notice
             <ul class="mb-6 flex flex-row flex-wrap gap-2 sm:ml-[10px]">
@@ -260,6 +262,10 @@
               </li>
             </ul>
             -->
+
+
+            <!-- MAYBEEEE what I can do is make multiple versions of the 'portfolio data' in the data.json file and just idk split the information types by a lot.-->
+
             <div id = "wrapper-publishedGames">
               <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
                 <img src="assets/images/portfolios/Hustle.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 1" />
@@ -370,7 +376,145 @@
               </div>
               </div>
           </section>
-          <!-- Portfolio END -->
+          <!-- Programming Portfolio END -->
+
+          <!-- Tech Art Portfolio START -->
+          <section class="tab-content animate__animated animate__fadeIn active hidden">
+           
+            <h2 class="mb-3 text-2xl font-semibold text-heading sm:ml-[10px]">Shaders and VFX</h2>
+            <!-- Removing the headers until further notice
+            <ul class="mb-6 flex flex-row flex-wrap gap-2 sm:ml-[10px]">
+              <li class="mr-5">
+                <button data-target="all" class="tab-portfolio whitespace-nowrap text-sm font-medium text-primary hover:underline">All</button>
+              </li>
+              <li class="mr-5">
+                <button data-target="ui/ux" class="tab-portfolio whitespace-nowrap text-sm font-medium hover:underline">UI/UX</button>
+              </li>
+              <li class="mr-5">
+                <button data-target="product" class="tab-portfolio whitespace-nowrap text-sm font-medium hover:underline">Product Design</button>
+              </li>
+              <li class="mr-5">
+                <button data-target="mobile" class="tab-portfolio whitespace-nowrap text-sm font-medium hover:underline">Mobile App</button>
+              </li>
+              <li class="mr-5">
+                <button data-target="web" class="tab-portfolio whitespace-nowrap text-sm font-medium hover:underline">Web App</button>
+              </li>
+            </ul>
+            -->
+            <div id = "wrapper-publishedGames"> <!-- TECH ART -->
+              <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                <img src="assets/images/portfolios/Hustle.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 1" />
+                <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Hamster Customizer</h2>
+                <!-- <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Multiplayer Party Game</p> -->
+                <button
+                  class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                >
+                  View Details
+                </button>
+              </div>
+              <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                <img src="assets/images/portfolios/Clown.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 2" />
+                <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Where's that Clown?!</h2>
+                <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Top-down Arcade Game</p>
+                <button
+                  class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                >
+                  View Details
+                </button>
+              </div>
+              <!-- Removing the last 3 spaces so my games     on this site mostly matches whats on my itch page. 6 Games on each, might need to change up later
+              <div data-groups='["all","ui/ux"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                <img src="assets/images/portfolios/7.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 7" />
+                <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Social Media Marketing</h2>
+                <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">UI/UX</p>
+                <button
+                  class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                >
+                  View Details
+                </button>
+              </div>
+              <div data-groups='["all","ui/ux"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                <img src="assets/images/portfolios/8.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 8" />
+                <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Chat Message</h2>
+                <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">UI/UX</p>
+                <button
+                  class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                >
+                  View Details
+                </button>
+              </div>
+              -->
+            </div>
+
+            <!-- Maybe what we do is we leave this out if I'm looking to specialize. Plus it helps me for now shrink the work I gotta do.
+            
+            <h2 class="mb-3 text-2xl font-semibold text-heading sm:ml-[10px]">Other Tech Art Stuff</h2>
+
+            <div id = "wrapper-otherGames">
+                <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                  <img src="assets/images/portfolios/Signals.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 3" />
+                  <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Signals from the Stars</h2>
+                  <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Sci-fi Puzzle Game</p>
+                  <button
+                    class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                  >
+                    View Details
+                  </button>
+                </div>
+                <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                  <img src="assets/images/portfolios/Sorting.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 4" />
+                  <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Sorting Incorporated</h2>
+                  <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Chaos Management Game</p>
+                  <button
+                    class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                  >
+                    View Details
+                  </button>
+                </div>
+                <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                  <img src="assets/images/portfolios/Shredder.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 5" />
+                  <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Slope Shredder</h2>
+                  <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Endless Runner</p>
+                  <button
+                    class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                  >
+                    View Details
+                  </button>
+                </div>
+                <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                  <img src="assets/images/portfolios/Solitaire.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 6" />
+                  <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Chain Solitaire</h2>
+                  <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Card Game</p>
+                  <button
+                    class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                  >
+                    View Details
+                  </button>
+                </div>
+                <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                  <img src="assets/images/portfolios/Desolate.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 7" />
+                  <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Desolate</h2>
+                  <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Horror RPG</p>
+                  <button
+                    class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                  >
+                    View Details
+                  </button>
+                </div>
+                <div data-groups='["all","mobile"]' class="item-portfolio group relative mb-5 w-full transition-all duration-500 sm:px-[10px] md:w-1/2">
+                  <img src="assets/images/portfolios/Tag.png" class="h-52 w-full rounded-md object-cover transition-all duration-300 group-hover:brightness-[0.35] md:h-48 xl:h-56" alt="Portfolio 8" />
+                  <h2 class="absolute bottom-[72px] left-4 hidden text-base font-medium text-tertinary transition-all duration-500 group-hover:block sm:bottom-10 sm:left-8">Battle Tag</h2>
+                  <p class="absolute bottom-[52px] left-4 hidden text-sm font-light text-secondary transition-all duration-500 group-hover:block sm:bottom-5 sm:left-8">Arcade Game</p>
+                  <button
+                    class="open-modal-portfolio absolute bottom-4 left-4 hidden rounded-full bg-primary px-4 py-1 text-[13px] font-normal text-tertinary transition-all duration-500 hover:bg-hover group-hover:block sm:left-auto sm:right-6 xl:py-2"
+                  >
+                    View Details
+                  </button>
+              </div>
+              </div>
+            -->
+          </section>
+          <!-- Tech Art Portfolio END -->
 
           <!-- About START --> <!-- How do I get this stuff to only show not first. Where is the portfolio page-->
           <section class="tab-content animate__animated animate__fadeIn hidden">

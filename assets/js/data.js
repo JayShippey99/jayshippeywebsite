@@ -31,10 +31,21 @@ xhttp.onreadystatechange = function () {
               </svg>
               <span>Click to Play!</span>
             </a>
+            
+
+            <!-- this being here just means its always here for every details that works. I need a way to turn these into interchangable videos. Is the only way to get a video here to link it? I can't just play an mp4?-->
+           
+            <!-- I need a way to ask if there's a video or not-->
+            <!--
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="assets/images/portfolio-details/${data.video}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jay Shippey - Game Programmer Demo Reel"></iframe></div>
+            -->
+
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
             <h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>
             <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
             <h2 class="text-lg text-heading font-medium mt-7 mb-3">My Contributions</h2>
+
+            <!-- I wonder if there's a way to do if statments. I need some way to just ignore the line of code-->
 
             <!-- Hypothetical code:
              something.forEach((dataPortfolio, index) => {
@@ -56,7 +67,6 @@ xhttp.onreadystatechange = function () {
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[8]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[9]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[10]}</p>
-
 
             <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES
             <h2 class="text-base text-heading font-medium">${data.goals_list[1]}</h2>

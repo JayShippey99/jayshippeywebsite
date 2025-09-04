@@ -1,5 +1,5 @@
 let modalWrapper = document.querySelector(".modal");
-//let openModalPortfolio = document.querySelectorAll(".open-modal-portfolio");
+let openModalPortfolio = document.querySelectorAll(".open-modal-portfolio");
 //let openModalBlog = document.querySelectorAll(".open-modal-blog");
 
 /*  ================
@@ -10,12 +10,12 @@ xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     var data = JSON.parse(xhttp.responseText);
     let dataPortfolio = data["portfolio-data"]; // this pulls the portfolio section and all the details from the data.json into the dataPortfolio variable 
-    let dataBlog = data["blog-data"];
+    //let dataBlog = data["blog-data"];
     
     // SO THE REASON WHY THE BUTTON WASN'T WORKING IS BECAUSE ITS NOT IN THE .open-model- whatever thing so the code setting it up doesn't run. There's some class or wrapper that's not what we need it to be
 
     // Portfolio data
-    /*
+  
     dataPortfolio.forEach((data, index) => {
         
       openModalPortfolio[index].addEventListener("click", () => {
@@ -111,7 +111,7 @@ xhttp.onreadystatechange = function () {
             `;
       });
     });
-    */
+    
 
     // Blog data
     /*

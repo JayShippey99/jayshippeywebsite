@@ -179,13 +179,15 @@ var swiper = new Swiper(".swiperClientSays", {
     Shuffle JS
 ================== */
 const Shuffle = window.Shuffle;
-const element1 = document.querySelector("#wrapper-publishedGames"); // I think I need to turn this into code that uses a class
+const element1 = document.querySelector("#wrapper-publishedGames"); // I think I need to turn this into code that uses a class // actually, this wrapper only made it so the items inside were shuffled
 //const element2 = document.querySelector("#wrapper-otherGames");
 const tabPortfolio = document.querySelectorAll(".tab-portfolio");
 
-const shuffleInstance1 = new Shuffle(element1, { // I then need to change how it shuffles things
-  itemSelector: ".item-portfolio",
+/*
+const shuffleInstance1 = new Shuffle(element1, { // we don't need to shuffle at all with the new way this is 
+  itemSelector: ".item-portfolio", // we were able to get rid of the .item portfolio thing now, and it doesn't go away when its removed // oh my god AND we can remove the id entirely. none of this is needed anymore
 });
+*/
 /*
 const shuffleInstance2 = new Shuffle(element2, {
   itemSelector: ".item-portfolio",

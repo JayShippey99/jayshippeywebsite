@@ -180,15 +180,17 @@ var swiper = new Swiper(".swiperClientSays", {
 ================== */
 const Shuffle = window.Shuffle;
 const element1 = document.querySelector("#wrapper-publishedGames"); // I think I need to turn this into code that uses a class
-const element2 = document.querySelector("#wrapper-otherGames");
+//const element2 = document.querySelector("#wrapper-otherGames");
 const tabPortfolio = document.querySelectorAll(".tab-portfolio");
 
 const shuffleInstance1 = new Shuffle(element1, { // I then need to change how it shuffles things
   itemSelector: ".item-portfolio",
 });
+/*
 const shuffleInstance2 = new Shuffle(element2, {
   itemSelector: ".item-portfolio",
 });
+*/
 
 tabPortfolio.forEach((tab, index) => {
   tab.addEventListener("click", (e) => {
@@ -201,7 +203,7 @@ tabPortfolio.forEach((tab, index) => {
     tabPortfolio[index].classList.add("text-primary");
   });
 });
-
+/*
 tabPortfolio.forEach((tab, index) => {
   tab.addEventListener("click", (e) => {
     e.preventDefault();
@@ -213,6 +215,7 @@ tabPortfolio.forEach((tab, index) => {
     tabPortfolio[index].classList.add("text-primary");
   });
 });
+*/
 
 /*  ============================
     Modal (portfolio & blog)

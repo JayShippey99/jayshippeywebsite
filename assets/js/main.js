@@ -179,11 +179,11 @@ var swiper = new Swiper(".swiperClientSays", {
     Shuffle JS
 ================== */
 const Shuffle = window.Shuffle;
-const element1 = document.querySelector("#wrapper-publishedGames"); // This code is insanely lame, but for each section I want to add, I'll need to make a new ID and copy and paste new functions to organize it below
+const element1 = document.querySelector("#wrapper-publishedGames"); // I think I need to turn this into code that uses a class
 const element2 = document.querySelector("#wrapper-otherGames");
 const tabPortfolio = document.querySelectorAll(".tab-portfolio");
 
-const shuffleInstance1 = new Shuffle(element1, {
+const shuffleInstance1 = new Shuffle(element1, { // I then need to change how it shuffles things
   itemSelector: ".item-portfolio",
 });
 const shuffleInstance2 = new Shuffle(element2, {

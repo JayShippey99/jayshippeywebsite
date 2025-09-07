@@ -32,7 +32,6 @@ xhttp.onreadystatechange = function () {
               </svg>
               <span>Check it out on Steam!</span>
             </a>
-            
 
             <!-- this being here just means its always here for every details that works. I need a way to turn these into interchangable videos. Is the only way to get a video here to link it? I can't just play an mp4?-->
            

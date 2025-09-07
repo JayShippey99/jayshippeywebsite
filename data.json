@@ -11,16 +11,16 @@
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Project Manager, Technical Artist, Level Designer, Programmer",
-        "2": "Shader Materials",
-        "3": "Lighting and Post Processing",
+        "1": "Shader Materials",
+        "2": "Post Processing",
+        "3": "Character Customizer",
         "4": "Optimization",
-        "5": "Asset Verification",
-        "6": "Hamster Customizer",
+        "5": "Asset Implementation",
+        "6": "Lighting",
         "7": "Tool Builder",
         "8": "UI Programming",
-        "9": "",
-        "10": ""
+        "9": "Level Design",
+        "10": "Additional Gameplay Programming"
       },
       "goals_details": {
         "1": "When our team was closing in on our release date, I got our team's tasks organized on Jira and structured meetings better. This included quick brainstorms with the team for any new assets we'd need and reviewing newly added assets. I also began to wear the art direction hat a little bit here.",
@@ -46,16 +46,16 @@
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Programmer, Tech Artist",
-        "2": "Gameplay Programming",
-        "3": "Music",
+        "1": "Gameplay Programming",
+        "2": "Environment Shaders",
+        "3": "Character Shaders",
         "4": "Controller Compatibility",
-        "5": "Animation Programming",
-        "6": "Power Ups",
-        "7": "UI Programming",
-        "8": "High Score and Saving Systems",
-        "9": "Environment Shaders",
-        "10": "Character Shaders"
+        "5": "Character Animation Programming",
+        "6": "UI Programming",
+        "7": "High Score and Saving Systems",
+        "8": "Music",
+        "9": "",
+        "10": ""
       },
       "goals_details": {
         "1": "",
@@ -74,21 +74,21 @@
       "title": "Virtual Viking",
       "category": "VR Training Simulator",
       "link": "https://store.steampowered.com/app/1253160/Virtual_Viking/",
-      "image": "Signals.png",
+      "image": "Viking.png",
       "introduction": "VR training simulator where you gain experience with sprinkler protection systems.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "",
-        "2": "Logic Puzzle Mechanics",
-        "3": "Animatable Mesh made with Code",
-        "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System",
-        "6": "",
-        "7": "",
-        "8": "",
+        "1": "Gameplay Programming",
+        "2": "Procedural Programming",
+        "3": "VFX Shaders",
+        "4": "Environment Shaders",
+        "5": "Optimization",
+        "6": "Niagara VFX",
+        "7": "Keyframed and Recorded Cinematics for YouTube",
+        "8": "Quality Assurance",
         "9": "",
         "10": ""
       },
@@ -283,70 +283,34 @@
   ],
   "blog-data": [
     {
-      "time": "Jan 01, 2022 | 4 min read",
-      "title": "A Designer's Guide to Fighting Impostor Syndrome and Dealing with a Design Stress",
-      "image": "1.png",
-      "introduction": {
-        "paragraph1": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-        "paragraph2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? <br><br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose."
-      },
-      "quote": "Be gentle with yourself, learn to love yourself, to forgive yourself, for only as we have the right attitude toward ourselves can we have the right attitude toward others.",
-      "quote_by": "Wilfred Peterson, Product Designer"
+      "title": "Old Building Noise",
+      "image": "Hustle.png",
+      "link": "https://jay-shippey.itch.io/battle-tag",
+      "introduction": "This material broken down into layers:<br></br>Dirt/grunge, two sets of cracks of different size and darkness, distance based color tinting, fresnel based color tinting, four colored quadrants separated by a 'painted wall' texture.<br></br>More details:<br></br>The dirt and cracks are perlin noise or crack textures applied using a slightly cheaper version of the 'WorldAlignedTexture' node I created.<br></br>The painted wall effect was done by essentially scaling the 'paint' texture mask to match the width and height of the rooms in world coordinates, offsetting it, tiling it vertically for when there's multiple floors, and then applying it only to the walls based on its direction. (This is hard to explain briefly, shoot me a message if you're interested about it lol. It was a lot of math and masking of normals though)."
     },
     {
-      "time": "Feb 24, 2022 | 2 min read",
-      "title": "Everything You Need to Know About Mobile Application and Web Application",
-      "image": "2.png",
-      "introduction": {
-        "paragraph1": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-        "paragraph2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? <br><br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose."
-      },
-      "quote": "Be gentle with yourself, learn to love yourself, to forgive yourself, for only as we have the right attitude toward ourselves can we have the right attitude toward others.",
-      "quote_by": "Wilfred Peterson, Product Designer"
+      "title": "Hamster Customizer",
+      "image": "Hustle.png",
+      "link": "https://jay-shippey.itch.io/battle-tag",
+      "introduction": "The material works by offsetting, scaling, and rotating the UVs to manipulate the texture. The color changing is done by taking the two colors and lerping between them using the pattern texture. The pattern is a texture parameter. The two sliders that are little different are the color weight and hardness sliders. The weight slider essentially pushes the colors toward one color or the other and the hardness slider transitions between a blurred and hard version of each pattern texture.<br></br>The trickiest part was getting the UI working. Things like the sliders and their respective text boxes working together, applying and saving the changes vs reverting them, and the hat options. The color wheels are a very nifty plugin called 'Easy Color Picker'. Once the UI interaction felt good then it was just a matter of making the widget code change the material."
     },
     {
-      "time": "Apr 04, 2022 | 2 min read",
-      "title": "What You Know About Programming and What You Don't Know About Programming",
-      "image": "3.png",
-      "introduction": {
-        "paragraph1": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-        "paragraph2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? <br><br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose."
-      },
-      "quote": "Be gentle with yourself, learn to love yourself, to forgive yourself, for only as we have the right attitude toward ourselves can we have the right attitude toward others.",
-      "quote_by": "Wilfred Peterson, Product Designer"
+      "title": "FPS UI Shaders",
+      "image": "Hustle.png",
+      "link": "https://jay-shippey.itch.io/battle-tag",
+      "introduction": "Features:<br></br>Crosshair and hitmarker - Zooms in and out when you aim, the hitmarker widens for each repetitive shot, and it turns red when you get a kill.<br></br>Ammo clips - Shows how many clips you have and which one you are using. (Making one bigger also helped the readability of how many clips you have).<br></br>Damage indicator - The arc appears with a shake and keeps pointing in the direction of the hit as you move.<br></br><br></br>All of these materials were made using math only, no textures. Animating these materials was either done with timeline nodes in blueprints or through widget animations that effect the material parameters.<br></br>Making UI elements with shaders is not only easier to work with and more customizable, but it is more performant than relying solely on widgets. And when it comes to making art with code, this is my JAM. I had a blast working on these."
     },
     {
-      "time": "May 25, 2022 | 3 min read",
-      "title": "How to be a Good and Trustworthy Designer and Programmer in a Big Company",
-      "image": "4.png",
-      "introduction": {
-        "paragraph1": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-        "paragraph2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? <br><br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose."
-      },
-      "quote": "Be gentle with yourself, learn to love yourself, to forgive yourself, for only as we have the right attitude toward ourselves can we have the right attitude toward others.",
-      "quote_by": "Wilfred Peterson, Product Designer"
+      "title": "Wiggle Shader",
+      "image": "Hustle.png",
+      "link": "https://jay-shippey.itch.io/battle-tag",
+      "introduction": "Detailed Process:<br></br>Start with a mesh, any mesh. Create a black-to-white gradient in object space that starts from the bottom bounds of the mesh to the top.<br></br>Create a blueprint that moves the mesh around, for me I made it move around with controls like a character.<br></br>Send variables like what direction it's moving, the distance it moved, and the amount it rotated since the last frame to the material. Because values between frames will have such small differences, I added lerp nodes so the past values took longer to get to the current value. This helped exaggerate the effect.<br></br>The material uses the movement data and combines it with the bottom-to-top gradient. Instead of saying “put the vertices where they were x amount of time ago” it was easier to just find the direction of movement and the difference in position and use that to push the verts in the opposite direction, giving a trailing behind effect.<br></br>For example, if I were moving straight down at 1.5m/s, this gives me a direction and an intensity. I would offset all the verts by +1.5 vertically (since it's opposite of the direction I’m falling), but since that gets multiplied by the gradient, the top gets the most stretched and the bottom stays true to where it is. (The values here aren’t 1 to 1 how it works in the code, but I wanted to keep it simple to help visualize).<br></br>Additional parameters were added to the material to control the strength and curve of the gradient."
     },
     {
-      "time": "Jun 17, 2022 | 5 min read",
-      "title": "I Will Tell You The Truth About Designing UI Designs in The Next 5 Minutes",
-      "image": "5.png",
-      "introduction": {
-        "paragraph1": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-        "paragraph2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? <br><br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose."
-      },
-      "quote": "Be gentle with yourself, learn to love yourself, to forgive yourself, for only as we have the right attitude toward ourselves can we have the right attitude toward others.",
-      "quote_by": "Wilfred Peterson, Product Designer"
-    },
-    {
-      "time": "Aug 19, 2022 | 4 min read",
-      "title": "How? I Made a Beautiful and Modern UI/UX Design Using Figma and Sketch",
-      "image": "6.png",
-      "introduction": {
-        "paragraph1": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <br> <br> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
-        "paragraph2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? <br><br> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose."
-      },
-      "quote": "Be gentle with yourself, learn to love yourself, to forgive yourself, for only as we have the right attitude toward ourselves can we have the right attitude toward others.",
-      "quote_by": "Wilfred Peterson, Product Designer"
+      "title": "Ink Tentacle",
+      "image": "Hustle.png",
+      "link": "https://jay-shippey.itch.io/battle-tag",
+      "introduction": "Pieces:<br></br>The Tentacle - Ribbon renderer with shape setting to tube. I get it to launch out by setting initial velocity based on spawn index. Scratch pad code that makes each point move toward the previous one (this reels the tentacle back in). Using particle collision events, it slithers on the ground and spawns decal particles which leaves an ink trail behind. Roughness and specular are 0 for a void-like, pure black material for everything.<br></br>The Portal - Ink splat texture with alpha erosion at start and end. Cone burst of velocity aligned particles with point attraction to bring them back in. Scale sprite with speed for the stretching effect.<br></br>The Snap - Manual positioning and timing. Burst is done with U shaped particles that are velocity aligned but stop almost instantly.<br></br>Environment - Made a simple sci-fi wall in blender to add context to the effect. Blueprint for the alarm lights. Decals for the splatters on the ground."
     }
   ]
 }

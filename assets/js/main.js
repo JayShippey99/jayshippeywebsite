@@ -179,7 +179,7 @@ var swiper = new Swiper(".swiperClientSays", {
     Shuffle JS
 ================== */
 const Shuffle = window.Shuffle;
-const element1 = document.querySelector("#wrapper-publishedGames"); // I think I need to turn this into code that uses a class // actually, this wrapper only made it so the items inside were shuffled
+//const element1 = document.querySelector("#wrapper-publishedGames"); // I think I need to turn this into code that uses a class // actually, this wrapper only made it so the items inside were shuffled
 //const element2 = document.querySelector("#wrapper-otherGames");
 const tabPortfolio = document.querySelectorAll(".tab-portfolio");
 
@@ -227,7 +227,7 @@ const closeModal = document.querySelectorAll(".close-modal");
 const contentModalPortfolio = document.querySelector("#content-modal-portfolio");
 const openModalPortfolio = document.querySelectorAll(".open-modal-portfolio");
 const contentModalBlog = document.querySelector("#content-modal-blog");
-const openModalBlog = document.querySelectorAll(".open-modal-blog");
+const openModalBlog = document.querySelectorAll(".open-modal-shaders");
 
 // Open Modal portfolio
 openModalPortfolio.forEach((open) => {
@@ -237,10 +237,10 @@ openModalPortfolio.forEach((open) => {
   };
 });
 
-// Open modal blog
+// Open modal blog // So this does open its just the info is missing?
 openModalBlog.forEach((open) => {
   open.onclick = function () {
-    contentModalPortfolio.style.visibility = "visible";
+    contentModalBlog.style.visibility = "visible";
     document.body.style.overflow = "hidden";
   };
 });

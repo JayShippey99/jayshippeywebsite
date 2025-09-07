@@ -5,10 +5,7 @@
       "category": "Multiplayer Party Game",
       "link": "https://store.steampowered.com/app/3597930/Hamster_Hustle/",
       "image": "Hustle.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
-      "introduction": "Hamster Hustle is a fast-paced, online multiplayer party game where you play tag as hamsters! It supports up to 12 players and you can customize your hamster and emote to taunt other players. Its a perfect blend of chaos and cuteness for a lot of fun!<br> <br>Hamster Hustle is Dreamship Games' first published game on Steam and mine as well. Hamster Hustle has gotten 60k+ sales, 10k+ players, reached #3 on the new and trending tab for free games on Steam, and we've had a few popular YouTubers play our game! The reception completely blew us away. This isn't the first project Dreamship has worked on, however. But developing this game is when Dreamship really started to find its groove. We took everything we learned from our past projects and started fresh. 3 months later we put Hamster Hustle up on Steam. Releasing this game was a full on team effort. Since getting this game up I feel a whole new sense of self as a developer and a new sense of professionalism.",
+      "introduction": "Online party game where you dress up and play tag and other games as hamsters.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -43,10 +40,7 @@
       "category": "Top-down Arcade Game",
       "link": "https://store.steampowered.com/app/3730960/Wheres_That_Clown/?curator_clanid=4777282",
       "image": "Clown.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
-      "introduction": "Where's that Clown?! is a frantic top down arcade game where you must keep impatient kids entertained throughout chaotic birthday party venues. Dash around, dodging toddlers and parents as you try to get the highest score! <br> <br>Where's that Clown?! started as a game jam. There was about 15 people that worked on the jam, one of them being a programmer, that person being me. The game idea started with me saying 'Whatever idea we land on I need to be able to make the mechanic in 5 hours'. I think this mentality is what made the game go so well. I've always wanted to truly polish a game jam within the time frame and with this game we were able to do just that. So we had an incredibly put together game by the end of the 4 day jam and we saw the potential to take the game even further. So for the next two months a few of us we were slowly adding more content such as powerups and a new level. About a year later, that game jam team goes by 'Hivemind Labs' and Where's that Clown?! will be Hivemind's first published game on steam!",
+      "introduction": "Top-down arcade game where you bring props to crowds to keep a party entertained.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
@@ -81,16 +75,13 @@
       "category": "VR Training Simulator",
       "link": "https://store.steampowered.com/app/1253160/Virtual_Viking/",
       "image": "Signals.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
-      "introduction": "Virtual Viking is immersive training that will enable you to increase your familiarity with Viking valve systems. Experience various industry standard fire protection systems in operation during a building fire. Further discover these systems through observations and guided interactive learning.<br> <br> I was brought onto this project as an intern for 3 months. This was my first experience working in a real office. In the initial timeframe we exceeded production by so much that our internship was extended 7 months.",
+      "introduction": "VR training simulator where you gain experience with sprinkler protection systems.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
         "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       },
       "goals_list": {
-        "1": "Project Manager, Lead Designer, Lead Programmer",
+        "1": "",
         "2": "Logic Puzzle Mechanics",
         "3": "Animatable Mesh made with Code",
         "4": "Visual Effects and Shader Materials",
@@ -119,9 +110,6 @@
       "category": "Chaos Management Game",
       "link": "https://jay-shippey.itch.io/sorting-incorporated",
       "image": "Sorting.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
       "introduction": "You just got a new job at the most BORING place in the world! I mean, come on! All you're doing from 9 to 5 is standing at a conveyer line waiting for packages to come down to sort them. How crazy can it get? <br> <br> Sorting Incorporated, made in Unity, started as a way to get more familiar with Unity, specifically with a simple test with the sprite mask. It wound up becoming my first game that I would fully develop front to back. Projects for classes usually lack key things like tutorials and settings and I wanted to bring this game up to the standard for real games. This project took around 2 months.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
@@ -157,9 +145,6 @@
       "category": "Endless Runner",
       "link": "https://jay-shippey.itch.io/slope-shredder",
       "image": "Shredder.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
       "introduction": "Play as Shred McTwist and shred as far as you can down the mountain without getting caught by the avalanche! In this endless runner, you do gnarly tricks on ramps to gain boost and pass through slolams to gain upgrade points. How far will you shred? <br> <br> Slope Shredder, made in Unreal Engine, was a student-run project made over the course of a semester. The class's original intent was to work with a company on their game, but we felt dissatisfied with how things were going, so we quickly cut ties and decided to make our own game as a class. Our project was such a success that the class was reworked to function this way for future classes. The project was originally built for mobile and made its way onto the Google Play store for Android. Later, I tweaked it to run on PC as well. My class was a small focused talented group and I'm so fortunate I was able to be part of it.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
@@ -195,9 +180,6 @@
       "category": "Card Game",
       "link": "https://jay-shippey.itch.io/chain-solitaire",
       "image": "Solitaire.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
       "introduction": "In this Solitaire variation, you get to look through the whole deck for patterns of cards. Different patterns allow you to remove different cards, and your goal is to get your hand down to 2 or less cards. Think ahead and remove cards to set up combo chains. <br> <br> Chain Solitaire, made in Unity, is an original Solitaire variation I came up with. The idea started from me playing One Hand Solitaire in real life and making tweak after tweak to the rules until it felt like a Solitaire game that wasn't just dependant on what your shuffle was. This was a 2 month solo project. Before Chain Solitiare, I would design games based on what I was capable of. Because this was a real game I was recreating, I had to follow the design rigidly which was a fun challenge. What I'm most proud of with this game is that people can take the rules and play it with a real deck of cards.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
@@ -233,9 +215,6 @@
       "category": "Horror RPG",
       "link": "https://jay-shippey.itch.io/desolate",
       "image": "Desolate.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
       "introduction": "You wake up in a pitch black room with no memory of how you got there (of course you do). As you explore, you piece together more of your past and explore the cursed pyramid you've found yourself in. <br> <br> Desolate, made in Unity, is a discontinued demo for a horror RPG. Desolate was my first big project I tackled in Unity. I was the solo programmer for the group. When development first started, I was attempting to build off of Unity's premade RPG tutorial project. The start of the project was rocky because of this. I was trying to understand a professional level project as pretty much a newbie. However, as the project progressed, I started building mechanics from scratch and I began to pick up pace in the way I expected from the start. In the end I learned some lessons and I was able to bring the project together in a really cool way.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
@@ -271,9 +250,6 @@
       "category": "Arcade Game",
       "link": "https://jay-shippey.itch.io/battle-tag",
       "image": "Tag.png",
-      "client": "Albert Alexander",
-      "city": "Los Angeles, LA",
-      "date": "December 24, 2022",
       "introduction": "Battle Tag takes the classic game of tag and adds an asymmetrical twist which makes for an interesting, dynamic experience. Each round is 30 seconds and the tagger has many tricks up its sleeve to keep you on the move. If tag had a boss fight, this would be it. <br> <br> Battle Tag, made in Processing, is my oldest project that I still show off with confidence. It got great remarks from my professor and on the rare occasion, I see my relatives playing it. I love designing minimalist, replayable games. This is arguably my most fun one.",
       "goals_desc": {
         "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",

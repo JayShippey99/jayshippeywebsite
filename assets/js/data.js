@@ -22,7 +22,7 @@ xhttp.onreadystatechange = function () {
         modalWrapper.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
             <p class="text-sm text-paragraph font-normal mb-3 mt-1">${data.category}</p>
-            <a href="${data.link}" class="flex items-center text-sm text-primary hover:underline w-fit">
+            <a href="${data.link}" target="_blank" class="flex items-center text-sm text-primary hover:underline w-fit">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path
                   fill-rule="evenodd"
@@ -30,7 +30,7 @@ xhttp.onreadystatechange = function () {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span>Click to Play!</span>
+              <span>Check it out on Steam!</span>
             </a>
             
 
@@ -42,22 +42,30 @@ xhttp.onreadystatechange = function () {
             -->
 
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
-            <h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
+            <!--<h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>-->
+            <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
             <h2 class="text-lg text-heading font-medium mt-7 mb-3">My Contributions</h2>
-
-            <!-- I wonder if there's a way to do if statments. I need some way to just ignore the line of code-->
-
-            <!-- Hypothetical code:
-             something.forEach((dataPortfolio, index) => {
-             <li>${data.goals_list[index]}</li>
-             }); -->
 
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->
 
             <!-- USE THIS FOR NOW -->
+            
+            <ul style="display: grid; grid-template-columns: auto auto;">
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[2]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[3]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[4]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[5]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[6]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[7]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[8]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[9]}</li>
+              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[10]}</li>
+            </ul>
+            
+            <!--
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[2]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[3]}</p>
@@ -68,6 +76,7 @@ xhttp.onreadystatechange = function () {
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[8]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[9]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[10]}</p>
+            -->
 
             <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES
             <h2 class="text-base text-heading font-medium">${data.goals_list[1]}</h2>

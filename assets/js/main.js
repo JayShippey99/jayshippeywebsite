@@ -222,7 +222,8 @@ tabPortfolio.forEach((tab, index) => {
 /*  ============================
     Modal (portfolio & blog)
 ============================ */
-const modalWrapper = document.querySelector(".modal");
+const modalWrapperPortfolio = document.querySelector(".modal-Portfolio");
+const modalWrapperBlog = document.querySelector(".modal-Blog");
 const closeModal = document.querySelectorAll(".close-modal");
 const contentModalPortfolio = document.querySelector("#content-modal-portfolio");
 const openModalPortfolio = document.querySelectorAll(".open-modal-portfolio");
@@ -251,7 +252,8 @@ closeModal.forEach((close) => {
     contentModalPortfolio.style.visibility = "hidden";
     contentModalBlog.style.visibility = "hidden";
     document.body.style.overflow = "visible";
-    modalWrapper.scrollTop = 0;
+    modalWrapperPortfolio.scrollTop = 0;
+    modalWrapperBlog.scrollTop = 0;
   };
 });
 
@@ -261,7 +263,8 @@ window.onclick = function (event) {
     contentModalPortfolio.style.visibility = "hidden";
     contentModalBlog.style.visibility = "hidden";
     document.body.style.overflow = "visible";
-    modalWrapper.scrollTop = 0;
+    modalWrapperPortfolio.scrollTop = 0;
+    modalWrapperBlog.scrollTop = 0;
   }
 };
 

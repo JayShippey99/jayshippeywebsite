@@ -1,4 +1,5 @@
-let modalWrapper = document.querySelector(".modal");
+let modalWrapperPortfolio = document.querySelector(".modal-Portfolio");
+let modalWrapperBlog = document.querySelector(".modal-Blog");
 let openModalPortfolio = document.querySelectorAll(".open-modal-portfolio");
 let openModalBlog = document.querySelectorAll(".open-modal-shaders");
 
@@ -19,7 +20,7 @@ xhttp.onreadystatechange = function () {
     dataPortfolio.forEach((data, index) => {
         
       openModalPortfolio[index].addEventListener("click", () => {
-        modalWrapper.innerHTML = `
+        modalWrapperPortfolio.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
             <p class="text-sm text-paragraph font-normal mb-3 mt-1">${data.category}</p>
             <a href="${data.link}" target="_blank" class="flex items-center text-sm text-primary hover:underline w-fit">
@@ -43,7 +44,7 @@ xhttp.onreadystatechange = function () {
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
             <!--<h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>-->
             <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
-            <h2 class="text-lg text-heading font-medium mt-7 mb-3">My Contributions</h2>
+            <h2 class="text-lg text-heading font-medium mt-7 mb-3" style="margin-top: 50px">My Contributions</h2>
 
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
@@ -126,11 +127,10 @@ xhttp.onreadystatechange = function () {
     // maybe for this area I can just have the picture be an in progres version of it?
     dataBlog.forEach((data, index) => {
       openModalBlog[index].addEventListener("click", () => {
-        modalWrapper.innerHTML = `
+        modalWrapperBlog.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
             <!-- maybe it'd be cool to have a check it out on linkedin thing. I'd get more traffic there-->
-
-            <a href="${data.link}" target="_blank" class="flex items-center text-sm text-primary hover:underline w-fit">
+            <a href="${data.link}" target="_blank" class="flex items-center text-sm text-primary hover:underline w-fit"  style="margin-top: 10px">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path
                   fill-rule="evenodd"
@@ -141,7 +141,12 @@ xhttp.onreadystatechange = function () {
               <span>Check out the LinkedIn post!</span>
             </a>
 
-            <p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p>
+            <div class="vimeo-player" style="padding:56.25% 0 0 0;position:relative; margin-top: 20px"><iframe src="${data.video}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${data.title}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>Goal:</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goal}</p>
+
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.info}</p>
             `;
       });
     });

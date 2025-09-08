@@ -19,17 +19,19 @@ if (localStorage.getItem("preferredTheme") == "dark-mode") {
 let colorSchemeSettings = document.querySelector("#color-scheme-settings");
 let colorSchemeWrapper = document.querySelector("#color-scheme-wrapper");
 let colorScheme = document.querySelectorAll(".color-scheme");
-
+/*
 colorScheme.forEach((color) => {
   color.addEventListener("click", (e) => {
     document.body.classList.remove("theme-magenta", "theme-lime", "theme-default", "theme-violet", "theme-orange", "theme-aqua", "theme-coffee", "theme-teal", "theme-olive", "theme-crimson", "theme-chartreuse", "theme-indigo");
     document.body.classList.add(`theme-${e.target.getAttribute("data-color")}`);
   });
 });
-
+*/
+/*
 colorSchemeSettings.addEventListener("click", () => {
   colorSchemeWrapper.classList.toggle("mr-0");
 });
+*/
 
 /*  ==================
     To top start
@@ -47,6 +49,7 @@ window.onscroll = () => {
 /*  ==================
     Dark Mode
 ================== */
+/*
 darkmodeToggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   if (document.body.classList.contains("dark-mode")) {
@@ -59,6 +62,7 @@ darkmodeToggle.addEventListener("click", () => {
     localStorage.removeItem("preferredTheme");
   }
 });
+*/
 
 /*  ==================
     Mobile Menu

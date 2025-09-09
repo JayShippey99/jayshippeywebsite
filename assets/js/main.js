@@ -102,8 +102,8 @@ tabs.forEach((tab, index) => {
         tab.classList.remove("active");
       });
 
-      tabContent[2].classList.add("active"); //idk why but these were [1] in my code and [2] in the template
-      tabs[2].classList.add("active");
+      tabContent[1].classList.add("active"); //idk why but these were [1] in my code and [2] in the template
+      tabs[1].classList.add("active");
     });
   });
 
@@ -115,8 +115,8 @@ tabs.forEach((tab, index) => {
       tabs.forEach((tab) => {
         tab.classList.remove("active");
       });
-      tabContent[4].classList.add("active"); //idk why but these were [2] in my code and [4] in the template
-      tabs[4].classList.add("active");
+      tabContent[2].classList.add("active"); //idk why but these were [2] in my code and [4] in the template
+      tabs[2].classList.add("active");
     });
   });
 

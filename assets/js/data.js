@@ -52,7 +52,7 @@ xhttp.onreadystatechange = function () {
 
             <!-- USE THIS FOR NOW -->
             
-            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1" style="display: grid; grid-template-columns: auto auto;">
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1">
               <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</li>
               <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[2]}</li>
               <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[3]}</li>

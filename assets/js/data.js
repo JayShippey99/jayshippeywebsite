@@ -53,16 +53,16 @@ xhttp.onreadystatechange = function () {
             <!-- USE THIS FOR NOW -->
             
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1">
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[2]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[3]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[4]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[5]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[6]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[7]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[8]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[9]}</li>
-              <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[10]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[1]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[2]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[3]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[4]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[5]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[6]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[7]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[8]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[9]}</li>
+              <li class="text-sm text-paragraph font-normal">${data.goals_list[10]}</li>
             </ul>
             
             <!--

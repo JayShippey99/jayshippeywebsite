@@ -44,7 +44,7 @@ xhttp.onreadystatechange = function () {
             <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
             <!--<h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>-->
             <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
-            <h2 class="text-lg text-heading font-medium mt-7 mb-3" style="margin-top: 50px">My Contributions</h2>
+            <h2 class="text-lg text-heading font-medium mt-7 mb-2" style="margin-top: 10px">My Contributions</h2>
 
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
@@ -52,7 +52,7 @@ xhttp.onreadystatechange = function () {
 
             <!-- USE THIS FOR NOW -->
             
-            <ul style="display: grid; grid-template-columns: auto auto;">
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1" style="display: grid; grid-template-columns: auto auto;">
               <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</li>
               <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[2]}</li>
               <li class="text-sm text-paragraph font-normal text-justify">${data.goals_list[3]}</li>

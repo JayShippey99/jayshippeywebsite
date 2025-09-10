@@ -22,7 +22,7 @@ xhttp.onreadystatechange = function () {
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapperPortfolio.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
-            <p class="text-sm text-paragraph font-normal mb-3 mt-1">${data.category}</p>
+            <p class="text-sm text-paragraph font-normal mb-3" style="margin-top: 6px">${data.category}</p>
             <a href="${data.link}" target="_blank" class="flex items-center text-sm text-primary hover:underline w-fit">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path
@@ -41,16 +41,16 @@ xhttp.onreadystatechange = function () {
             <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="assets/images/portfolio-details/${data.video}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jay Shippey - Game Programmer Demo Reel"></iframe></div>
             -->
 
-            <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />
-            <!--<h2 class="text-lg text-heading font-medium mt-7 mb-3">Background</h2>-->
+            <!--<img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />-->
+            <div class="vimeo-player" style="padding:56.25% 0 0 0;position:relative; margin-top: 20px"><iframe src="${data.video}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${data.title}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <!--<h2 class="text-lg text-heading font-medium mt-7">Background</h2>-->
             <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
-            <h2 class="text-lg text-heading font-medium mt-7 mb-2" style="margin-top: 10px">My Contributions</h2>
-
+            <h2 class="text-lg text-heading font-medium mt-7 mb-2">My Contributions</h2>
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->
 
-            
+            <!--
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1">
               <li class="text-sm text-paragraph font-normal">${data.goals_list[1]}</li>
               <li class="text-sm text-paragraph font-normal">${data.goals_list[2]}</li>
@@ -61,6 +61,7 @@ xhttp.onreadystatechange = function () {
               <li class="text-sm text-paragraph font-normal">${data.goals_list[7]}</li>
               <li class="text-sm text-paragraph font-normal">${data.goals_list[8]}</li>
             </ul>
+            -->
             
             
             <!--
@@ -77,19 +78,23 @@ xhttp.onreadystatechange = function () {
             -->
 
             <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES -->
-            <!--
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
-            -->
-            
+
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[1]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[2]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[2]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[3]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[3]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[4]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[4]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[5]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[5]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[6]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[6]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[7]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[7]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[8]}</u></p>
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[8]}</p>
             
             <!--
             <ul class="list-blank text-sm ml-8 text-paragraph my-4">
@@ -131,11 +136,12 @@ xhttp.onreadystatechange = function () {
               <span>Check out the LinkedIn post!</span>
             </a>
 
+
+
             <div class="vimeo-player" style="padding:56.25% 0 0 0;position:relative; margin-top: 20px"><iframe src="${data.video}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${data.title}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>Goal:</u></p>
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goal}</p>
-
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.info}</p>
             `;
       });

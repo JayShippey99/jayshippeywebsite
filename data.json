@@ -5,6 +5,7 @@
       "category": "Multiplayer Party Game",
       "link": "https://store.steampowered.com/app/3597930/Hamster_Hustle/",
       "image": "Hustle.png",
+      "video": "https://player.vimeo.com/video/1114691309",
       "introduction": "Online party game where you dress up and play tag and other games as hamsters.",
       "goals_list": {
         "1": "Shader Materials",
@@ -18,7 +19,7 @@
       },
       "goals_details": {
         "1": "Customizable pattern for the character - Achieved by offsetting, rotating, and scaling of a texture. There's more info in the Shaders and VFX section.<br></br>Transparent pipes - The material may look simple but I actually studied some clear plastic in real life to recreate what I saw. Fresnel was my friend here for a lot of it and I also included some fake reflections with a cube map to keep things cheap.<br></br>Bedding - Made the bedding lumpy with vertex displacement. An issue came up where looking down while in a lump made the floor flicker. Fixed this by making the lumps flatten based on the camera's location.",
-        "2": "Changed the post processing, lighting, and shadows to get the desired look. Our game was saturated and harsh, we wanted soft and pastel.<br></br>To pastel-ify the colors I reduced the contrast between the lights and darks and slightly desaturated everything with the global post process volume.<br></br>To soften the lighting I brightened the skylight, turned off lumen, and turned on shadow maps. In a post process material I boosted the saturation of the shadows back up so they adopted the color of their surface like our reference images.<br></br>Changing one of these will affect another, but these moving pieces eventually all came together.",
+        "2": "Changed the post processing, lighting, and shadows to get the desired look. Our game was saturated and harsh, we wanted soft and pastel.<br></br>To pastel-ify the colors I reduced the contrast between the lights and darks and slightly desaturated everything with the global post process volume.<br></br>To soften the lighting I brightened the skylight, turned off lumen, and turned on shadow maps. In a post process material I boosted the saturation of the shadows back up so they adopted the color of their surface like our reference images.",
         "3": "Conducted a large optimization overhaul which included adjusting project settings, reducing the geo of models, applying and tweaking LODs to all assets, and reworking the post processing and lighting, bringing the frame time down from 27ms to 6ms.",
         "4": "Implemented and verified assets with detailed feedback, making any quick in-engine adjustments using tools such as the modeling mode.",
         "5": "Level design - Created a blueprint that lets me quickly construct cage walls and snap them to one another.<br></br>Screenshot stager - Developed a blueprint that lets artists place, animate, and move hamsters to stage pictures and then take screenshots with easy controls.",
@@ -32,6 +33,7 @@
       "category": "Top-down Arcade Game",
       "link": "https://store.steampowered.com/app/3730960/Wheres_That_Clown/?curator_clanid=4777282",
       "image": "Clown.png",
+      "video": "https://player.vimeo.com/video/1114691331",
       "introduction": "Top-down arcade game where you bring props to crowds to keep a party entertained.",
       "goals_list": {
         "1": "Gameplay Programming",
@@ -59,6 +61,7 @@
       "category": "VR Training Simulator",
       "link": "https://store.steampowered.com/app/1253160/Virtual_Viking/",
       "image": "Viking.png",
+      "video": "https://player.vimeo.com/video/1114713822",
       "introduction": "VR training simulator where you gain experience with sprinkler protection systems.",
       "goals_list": {
         "1": "Gameplay Programming",

@@ -16,23 +16,23 @@
         "3": "Character Customizer",
         "4": "Optimization",
         "5": "Asset Implementation",
-        "6": "Lighting",
+        "6": "Lighting and Shadows",
         "7": "Tools",
-        "8": "UI Programming",
+        "8": "Niagara VFX",
         "9": "Level Design",
-        "10": "Additional Gameplay Programming"
+        "10": "UI Programming"
       },
       "goals_details": {
-        "1": "When our team was closing in on our release date, I got our team's tasks organized on Jira and structured meetings better. This included quick brainstorms with the team for any new assets we'd need and reviewing newly added assets. I also began to wear the art direction hat a little bit here.",
+        "1": "Hamster skin customizer, bedding, pipes! duh, ",
         "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
         "3": "Animatable Mesh made with Code",
         "4": "Visual Effects and Shader Materials",
         "5": "Dialogue System",
-        "6": "",
-        "7": "",
-        "8": "",
+        "6": "The lighting in this game uses a directional light and skylight.",
+        "7": "Animation tool, level building tool",
+        "8": "Made minor tweaks to existing effects. Fixed up positional issues and changed the colors.",
         "9": "",
-        "10": ""
+        "10": "In the mid stages of development this game needed a major makeover. I changed the post processing, lighting, and shadows to get the look we wanted. To start, our colors were all off. Our game was incredibly saturated and harsh to look at. We wanted a softer, more pastel palette. I toyed with the global post processing volume to desaturate the colors and lighten them. I then created my own post processing material"
       }
     },
     {
@@ -108,16 +108,14 @@
   ],
   "blog-data": [
     {
-      "title": "Old Building Noise",
-      "image": "Hustle.png",
+      "title": "Old Building Material",
       "video": "https://player.vimeo.com/video/1115897996",
       "link": "https://www.linkedin.com/posts/jay-shippey_its-been-a-minute-ive-been-working-on-activity-7306073519920955393-Ui8Q?utm_medium=ios_app&rcm=ACoAAEDg8aUBBrDiM7hBgPVnC6d2n3cHi_s_C0k&utm_source=social_share_send&utm_campaign=copy_link",
-      "goal": "Add damage and noise variation to the abandoned building environment, stylize it with some subtle coloring, and for gameplay purposes divide the building into four colored quadrants.",
+      "goal": "Add damage and noise variation to the abandoned building environment, stylize it with some subtle coloring, and for gameplay purposes divide the building into four colored quadrants.<br></br>The once-was office building has been overrun by criminals and acts as their headquarters now. There is normally furniture and appliances strewn throughout the map and graffiti on the walls, but I have removed them for this demo.",
       "info": "<u>Material Layers:</u><br></br>Dirt/grunge, two sets of cracks of different size and darkness, distance based color tinting, fresnel based color tinting, four colored quadrants separated by a 'painted wall' texture.<br></br><u>Noise and Performance:</u><br></br>This material started with a 'vector noise' node to apply the noise textures which was far too expensive since the building material is everywhere. Now, the dirt and cracks are applied using a cheaper version of the 'WorldAlignedTexture' node I created. I effectively just rebuilt the node, only keeping what I needed.<br></br><u>Painted Wall Texture:</u><br></br>The painted wall mask that separates the colors starts with a black and white texture with a line of 'paint strokes' to transition between the colors. This texture is clamped.<br></br>I then scale that texture in world space to match the width and height of the rooms. Since the texture is clamped I used a frac node to make it tile vertically for when the building has multiple floors. I also added variables to offset the texture's position.<br></br>I masked the texture using normals so it would only apply to the walls, then using the paint texture and more normal masking I multiplied the walls with 4 colors based on their quadrant."
     },
     {
       "title": "Hamster Customizer",
-      "image": "Hustle.png",
       "video": "https://player.vimeo.com/video/1115904868",
       "link": "https://www.linkedin.com/posts/jay-shippey_make-a-hamster-with-me-our-free-party-game-activity-7341268396488970241-B9ey?utm_medium=ios_app&rcm=ACoAAEDg8aUBBrDiM7hBgPVnC6d2n3cHi_s_C0k&utm_source=social_share_send&utm_campaign=copy_link",
       "goal": "Give the players a lot of freedom with creating a custom look for their hamster. We figured it would be easiest on our work load to make a customizable pattern than model a bunch of accessories to choose between. We quickly realized that this freedom was maybe more expressive than if we used prebuilt accessories.",
@@ -125,7 +123,6 @@
     },
     {
       "title": "TPS UI Shaders",
-      "image": "Hustle.png",
       "video": "https://player.vimeo.com/video/1115899769",
       "link": "https://www.linkedin.com/posts/jay-shippey_some-ui-materials-i-made-for-a-project-we-activity-7311882445329432576-mr66?utm_medium=ios_app&rcm=ACoAAEDg8aUBBrDiM7hBgPVnC6d2n3cHi_s_C0k&utm_source=social_share_send&utm_campaign=copy_link",
       "goal": "Make reactive UI elements for a third person shooter entirely out of material code (no textures) so there's maximum control over appearance and function and so we're not blocked by the Unreal widgets being a pain (which they usually are).",
@@ -133,7 +130,6 @@
     },
     {
       "title": "Wiggle Shader",
-      "image": "Hustle.png",
       "video": "https://player.vimeo.com/video/1115897270",
       "link": "https://www.linkedin.com/posts/jay-shippey_techart-shader-unrealengine-activity-7119698562220769280-_CC_?utm_medium=ios_app&rcm=ACoAAEDg8aUBBrDiM7hBgPVnC6d2n3cHi_s_C0k&utm_source=social_share_send&utm_campaign=copy_link",
       "goal": "Make a material function that is quick to apply to meshes so they have a trailing-behind effect. Could be fun in cases like dragging around objects in a level editor or just bringing a simple mesh to life.",
@@ -141,7 +137,6 @@
     },
     {
       "title": "Ink Tentacle",
-      "image": "Hustle.png",
       "video": "https://player.vimeo.com/video/1114699125",
       "link": "https://www.linkedin.com/posts/jay-shippey_ink-tentacle-vfx-and-shaders-pieces-the-activity-7102044860714467328-hyJg?utm_medium=ios_app&rcm=ACoAAEDg8aUBBrDiM7hBgPVnC6d2n3cHi_s_C0k&utm_source=social_share_send&utm_campaign=copy_link",
       "goal": "My goal here was to figure out how to leave behind a trail of something in real time. The inky tentacle monster was the context for that effect.",

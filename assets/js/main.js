@@ -1,5 +1,5 @@
-const darkmodeToggle = document.querySelector(".darkmode-toggle");
-const iconDarkMode = document.querySelector(".icon-darkmode");
+//const darkmodeToggle = document.querySelector(".darkmode-toggle");
+//const iconDarkMode = document.querySelector(".icon-darkmode");
 const menuToggle = document.querySelector(".menu-toggle");
 const menuList = document.querySelector(".menu-list");
 const iconMenu = document.querySelector(".icon-menu");
@@ -8,10 +8,12 @@ const logo = document.querySelector(".logo img");
 /*  ============================
     Localstorage Dark Mode
 ============================ */
+/*
 if (localStorage.getItem("preferredTheme") == "dark-mode") {
   document.body.classList.toggle("dark-mode");
   logo.src = "assets/images/logo_header.png";
 }
+*/
 
 /*  ==================
     Color Scheme

@@ -50,7 +50,6 @@ xhttp.onreadystatechange = function () {
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->
 
-            <!-- USE THIS FOR NOW -->
             
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1">
               <li class="text-sm text-paragraph font-normal">${data.goals_list[1]}</li>
@@ -61,9 +60,8 @@ xhttp.onreadystatechange = function () {
               <li class="text-sm text-paragraph font-normal">${data.goals_list[6]}</li>
               <li class="text-sm text-paragraph font-normal">${data.goals_list[7]}</li>
               <li class="text-sm text-paragraph font-normal">${data.goals_list[8]}</li>
-              <li class="text-sm text-paragraph font-normal">${data.goals_list[9]}</li>
-              <li class="text-sm text-paragraph font-normal">${data.goals_list[10]}</li>
             </ul>
+            
             
             <!--
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
@@ -78,28 +76,20 @@ xhttp.onreadystatechange = function () {
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[10]}</p>
             -->
 
-            <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES
-            <h2 class="text-base text-heading font-medium">${data.goals_list[1]}</h2>
+            <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES -->
+            <!--
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
             <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[2]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[2]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[3]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[3]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[4]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[4]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[5]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[5]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[6]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[6]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[7]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[7]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[8]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[8]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[9]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[9]}</p>
-            <h2 class="text-base text-heading font-medium">${data.goals_list[10]}</h2>
-            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[10]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_list[1]}</p>
+            <p class="text-sm text-paragraph font-normal text-justify">${data.goals_details[1]}</p>
             -->
+            
             
             <!--
             <ul class="list-blank text-sm ml-8 text-paragraph my-4">

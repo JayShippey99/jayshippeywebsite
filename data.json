@@ -6,33 +6,25 @@
       "link": "https://store.steampowered.com/app/3597930/Hamster_Hustle/",
       "image": "Hustle.png",
       "introduction": "Online party game where you dress up and play tag and other games as hamsters.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
       "goals_list": {
         "1": "Shader Materials",
-        "2": "Post Processing",
-        "3": "Character Customizer",
-        "4": "Optimization",
-        "5": "Asset Implementation",
-        "6": "Lighting and Shadows",
-        "7": "Tools",
-        "8": "Niagara VFX",
-        "9": "Level Design",
-        "10": "UI Programming"
+        "2": "Visual Overhaul (Post Processing, Lighting, Shadows)",
+        "3": "Optimization",
+        "4": "Asset Implementation",
+        "5": "Tools",
+        "6": "Niagara VFX",
+        "7": "Level Design",
+        "8": "UI Programming"
       },
       "goals_details": {
-        "1": "Hamster skin customizer, bedding, pipes! duh, ",
-        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
-        "3": "Animatable Mesh made with Code",
-        "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System",
-        "6": "The lighting in this game uses a directional light and skylight.",
-        "7": "Animation tool, level building tool",
-        "8": "Made minor tweaks to existing effects. Fixed up positional issues and changed the colors.",
-        "9": "",
-        "10": "In the mid stages of development this game needed a major makeover. I changed the post processing, lighting, and shadows to get the look we wanted. To start, our colors were all off. Our game was incredibly saturated and harsh to look at. We wanted a softer, more pastel palette. I toyed with the global post processing volume to desaturate the colors and lighten them. I then created my own post processing material"
+        "1": "Customizable pattern for the character - Achieved by offsetting, rotating, and scaling of a texture. There's more info in the Shaders and VFX section.<br></br>Transparent pipes - The material may look simple but I actually studied some clear plastic in real life to recreate what I saw. Fresnel was my friend here for a lot of it and I also included some fake reflections with a cube map to keep things cheap.<br></br>Bedding - Made the bedding lumpy with vertex displacement. An issue came up where looking down while in a lump made the floor flicker. Fixed this by making the lumps flatten based on the camera's location.",
+        "2": "Changed the post processing, lighting, and shadows to get the desired look. Our game was saturated and harsh, we wanted soft and pastel.<br></br>To pastel-ify the colors I reduced the contrast between the lights and darks and slightly desaturated everything with the global post process volume.<br></br>To soften the lighting I brightened the skylight, turned off lumen, and turned on shadow maps. In a post process material I boosted the saturation of the shadows back up so they adopted the color of their surface like our reference images.<br></br>Changing one of these will affect another, but these moving pieces eventually all came together.",
+        "3": "Conducted a large optimization overhaul which included adjusting project settings, reducing the geo of models, applying and tweaking LODs to all assets, and reworking the post processing and lighting, bringing the frame time down from 27ms to 6ms.",
+        "4": "Implemented and verified assets with detailed feedback, making any quick in-engine adjustments using tools such as the modeling mode.",
+        "5": "Level design - Created a blueprint that lets me quickly construct cage walls and snap them to one another.<br></br>Screenshot stager - Developed a blueprint that lets artists place, animate, and move hamsters to stage pictures and then take screenshots with easy controls.",
+        "6": "Made minor tweaks to existing effects. Things such as fixing up positional issues and changing colors.",
+        "7": "Quickly took map designs from simple concept sketches to playable maps. Ensured variation in map size and unique scenarios for each map.",
+        "8": "Programmed and helped design the customizer menu, main menu, and the level selector."
       }
     },
     {
@@ -41,33 +33,25 @@
       "link": "https://store.steampowered.com/app/3730960/Wheres_That_Clown/?curator_clanid=4777282",
       "image": "Clown.png",
       "introduction": "Top-down arcade game where you bring props to crowds to keep a party entertained.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
       "goals_list": {
         "1": "Gameplay Programming",
         "2": "Environment Shaders",
         "3": "Character Shaders",
         "4": "Controller Compatibility",
         "5": "Character Animation Programming",
-        "6": "UI Programming",
-        "7": "High Score and Saving Systems",
-        "8": "Music",
-        "9": "",
-        "10": ""
+        "6": "Level Design",
+        "7": "Music",
+        "8": ""
       },
       "goals_details": {
-        "1": "",
-        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
-        "3": "Animatable Mesh made with Code",
-        "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System",
-        "6": "",
-        "7": "",
-        "8": "",
-        "9": "",
-        "10": ""
+        "1": "Handled programming over the entire project including the main game loop, character movement, character interactions, powerups, saving systems, UI, animations, music and sound programming, vfx, and adding controller compatibility.",
+        "2": "Out of bounds - The invisible walls show a net-like pattern when the player gets close to signal what you can't jump/throw over.<br></br>Moving foliage - The classic moving leaves and grass.",
+        "3": "Random NPCs - Randomized the hair, skin, and clothing colors for the NPCs to take some work off of the art team.<br></br>Alternate character skins - Different powerups give the player a different color scheme. I took a funny shortcut and simply hue shifted the color texture to create alternate skins for the character.",
+        "4": "Configured the gameplay to work for a controller (in addition to keyboard), made the UI icons change based on the input type, and made the UI navigable with the controller.",
+        "5": "Do not do what I did for this.",
+        "6": "Aided in early level design, steering the design toward a layout that aids the player to increase the fun. This included bringing things tucked inside corners out into the open and setting up straight shots or bank shots for the player to learn as they played the level more.",
+        "7": "Whenever I can I love helping out with music and sound design!",
+        "8": ""
       }
     },
     {
@@ -76,33 +60,25 @@
       "link": "https://store.steampowered.com/app/1253160/Virtual_Viking/",
       "image": "Viking.png",
       "introduction": "VR training simulator where you gain experience with sprinkler protection systems.",
-      "goals_desc": {
-        "1": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,",
-        "2": "But, I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-      },
       "goals_list": {
         "1": "Gameplay Programming",
-        "2": "Procedural Programming",
-        "3": "VFX Shaders",
-        "4": "Environment Shaders",
-        "5": "Optimization",
-        "6": "Niagara VFX",
-        "7": "Keyframed and Recorded Cinematics for YouTube",
-        "8": "Quality Assurance",
-        "9": "",
-        "10": ""
-      },
-      "goals_details": {
-        "1": "",
-        "2": "You would create a list of instructions for the computer to send to the tesseract. The options being, create a straight path, a branch, keep doing what it was already doing, or stop the path. These inputs would get sent as a list of indexes which would be applied to each branch of the puzzle. I used some 3D widget trickery and blah blah blah.",
-        "3": "Animatable Mesh made with Code",
-        "4": "Visual Effects and Shader Materials",
-        "5": "Dialogue System",
+        "2": "Shader Materials",
+        "3": "Optimization",
+        "4": "Procedural Programming",
+        "5": "Keyframed and Recorded Cinematics for YouTube",
         "6": "",
         "7": "",
-        "8": "",
-        "9": "",
-        "10": ""
+        "8": ""
+      },
+      "goals_details": {
+        "1": "Programmed the interactable steps for the VR simulations, ensuring that the vfx, audio, and gameplay were all synced and paced understandably for the user.",
+        "2": "Created shaders for realistic interactions between water, fire, and the surrounding environment.<br></br>Warehouse fire - In this scene there is a box burning. The fire grows over time, blackening the cardboard as it passes while the outer edge stays glowing. The sprinkler above sprays water, snuffing out the emissive. The ground and box start becoming wet with sprinkles. Eventually the floor becomes shiny and the cardboard dampens and ripples can be seen in the water.<br></br>Propane tank - A propane tank has a flamethrower-like spray coming out of a hole. The tank over time begins to heat up red. When the fire is out the tank returns to normal but now has a dark, charred spot where the burning was and a brown ring around it. For this I used references of real burned propane tanks.",
+        "3": "Used the Baker tool to reduce a complicated vfx down to just 2 particles without any loss in detail.<br></br>The fire and water materials originally had high instruction counts due to nodes such as 'vector noise' but brought them down substantially by mapping the noise to the UVs instead with minimal difference in outcome.",
+        "4": "Created  a procedural pipe system that conforms to the desired start and end points, turns included, with settings for support beams.<br></br>Additionally, fixed existing procedural pipes as needed.",        
+        "5": "Adjusted the simulation blueprints so the steps happened automatically. Then, using the sequencer, keyframed camera animations to record the simulation. These were then rendered out, tweaked in Premiere, and sent off to be uploaded to YouTube. I got very familiar with the sequencer for this.",
+        "6": "",
+        "7": "",
+        "8": ""
       }
     }
   ],

@@ -40,9 +40,9 @@
         "2": "Environment Shaders",
         "3": "Character Shaders",
         "4": "Controller Compatibility",
-        "5": "Character Animation Programming",
-        "6": "Level Design",
-        "7": "Music",
+        "5": "Level Design",
+        "6": "Music",
+        "7": "",
         "8": ""
       },
       "goals_details": {
@@ -50,9 +50,9 @@
         "2": "Out of bounds - The invisible walls show a net-like pattern when the player gets close to signal what you can't jump/throw over.<br></br>Moving foliage - The classic moving leaves and grass.",
         "3": "Random NPCs - Randomized the hair, skin, and clothing colors for the NPCs to take some work off of the art team.<br></br>Alternate character skins - Different powerups give the player a different color scheme. I took a funny shortcut and simply hue shifted the color texture to create alternate skins for the character.",
         "4": "Configured the gameplay to work for a controller (in addition to keyboard), made the UI icons change based on the input type, and made the UI navigable with the controller.",
-        "5": "Do not do what I did for this.",
-        "6": "Aided in early level design, steering the design toward a layout that aids the player to increase the fun. This included bringing things tucked inside corners out into the open and setting up straight shots or bank shots for the player to learn as they played the level more.",
-        "7": "Whenever I can I love helping out with music and sound design!",
+        "5": "Aided in early level design, steering the design toward a layout that aids the player to increase the fun. This included bringing things tucked inside corners out into the open and setting up straight shots or bank shots for the player to learn as they played the level more.",
+        "6": "Whenever I can I love helping out with music and sound design!",
+        "7": "",
         "8": ""
       }
     },

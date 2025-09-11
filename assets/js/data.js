@@ -46,7 +46,7 @@ xhttp.onreadystatechange = function () {
 
             <!--<h2 class="text-lg text-heading font-medium mt-7">Background</h2>-->
             <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
-            <h2 class="text-lg text-heading font-medium mt-7 mb-2">My Contributions</h2>
+            <h2 class="text-lg text-heading font-medium mt-7 mb-2">Responsible For:</h2>
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->

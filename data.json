@@ -11,21 +11,21 @@
         "1": "Shader Materials",
         "2": "Overall Visuals (Post Processing, Lighting, Shadows)",
         "3": "Optimization",
-        "4": "Asset Implementation",
-        "5": "Tools",
-        "6": "Niagara VFX",
-        "7": "Level Design",
-        "8": "UI Programming"
+        "4": "Tools",
+        "5": "Asset Implementation",
+        "6": "Level Design",
+        "7": "",
+        "8": ""
       },
       "goals_details": {
-        "1": "Customizable pattern for the character - Achieved by offsetting, rotating, and scaling of a texture. There's more info in the Shaders and VFX section.<br></br>Transparent pipes - The material may look simple but I actually studied some clear plastic in real life to recreate what I saw. Fresnel was my friend here for a lot of it and I also included some fake reflections with a cube map to keep things cheap.<br></br>Bedding - Made the bedding lumpy with vertex displacement. An issue came up where looking down while in a lump made the floor flicker. Fixed this by making the lumps flatten based on the camera's location.",
-        "2": "Changed the post processing, lighting, and shadows to get the desired look. Our game was saturated and harsh, we wanted soft and pastel.<br></br>To pastel-ify the colors I reduced the contrast between the lights and darks and slightly desaturated everything with the global post process volume.<br></br>To soften the lighting I brightened the skylight, turned off lumen, and turned on shadow maps. In a post process material I boosted the saturation of the shadows back up so they adopted the color of their surface like our reference images.",
+        "1": "Customizable pattern for the character, transparent pipes, and bedding.",
+        "2": "Our game looked saturated and harsh. The goal was pastel and soft. Through a combination of tweaking the global post process volume, a custom post process material, project settings, lighting and shadow settings, I was able to match the vibe we were looking for.",
         "3": "Conducted a large optimization overhaul which included adjusting project settings, reducing the geo of models, applying and tweaking LODs to all assets, and reworking the post processing and lighting, bringing the frame time down from 27ms to 6ms.",
-        "4": "Implemented and verified assets with detailed feedback, making any quick in-engine adjustments using tools such as the modeling mode.",
-        "5": "Level design - Created a blueprint that lets me quickly construct cage walls and snap them to one another.<br></br>Screenshot stager - Developed a blueprint that lets artists place, animate, and move hamsters to stage pictures and then take screenshots with easy controls.",
-        "6": "Made minor tweaks to existing effects. Things such as fixing up positional issues and changing colors.",
-        "7": "Quickly took map designs from simple concept sketches to playable maps. Ensured variation in map size and unique scenarios for each map.",
-        "8": "Programmed and helped design the customizer menu, main menu, and the level selector."
+        "4": "Level design - Created a blueprint that lets me quickly construct cage walls and snap them to one another.<br></br>Screenshot stager - Developed a blueprint that lets artists place, animate, and move hamsters to stage pictures and then take screenshots with easy controls.",
+        "5": "Implemented and verified assets with detailed feedback, making any quick in-engine adjustments using tools such as the modeling mode.",
+        "6": "Quickly took map designs from simple concept sketches to playable maps. Ensured variation in map size and unique scenarios for each map.",
+        "7": "",
+        "8": ""
       }
     },
     {
@@ -75,10 +75,10 @@
       },
       "goals_details": {
         "1": "Programmed the interactable steps for the VR simulations, ensuring that the vfx, audio, and gameplay were all synced and paced understandably for the user.",
-        "2": "Created shaders for realistic interactions between water, fire, and the surrounding environment.<br></br>Warehouse fire - In this scene there is a box burning. The fire grows over time, blackening the cardboard as it passes while the outer edge stays glowing. The sprinkler above sprays water, snuffing out the emissive. The ground and box start becoming wet with sprinkles. Eventually the floor becomes shiny and the cardboard dampens and ripples can be seen in the water.<br></br>Propane tank - A propane tank has a flamethrower-like spray coming out of a hole. The tank over time begins to heat up red. When the fire is out the tank returns to normal but now has a dark, charred spot where the burning was and a brown ring around it. For this I used references of real burned propane tanks.",
-        "3": "Used the Baker tool to reduce a complicated vfx down to just 2 particles without any loss in detail.<br></br>The fire and water materials originally had high instruction counts due to nodes such as 'vector noise' but brought them down substantially by mapping the noise to the UVs instead with minimal difference in outcome.",
-        "4": "Created  a procedural pipe system that conforms to the desired start and end points, turns included, with settings for support beams.<br></br>Additionally, fixed existing procedural pipes as needed.",        
-        "5": "Adjusted the simulation blueprints so the steps happened automatically. Then, using the sequencer, keyframed camera animations to record the simulation. These were then rendered out, tweaked in Premiere, and sent off to be uploaded to YouTube. I got very familiar with the sequencer for this.",
+        "2": "Created shaders for realistic interactions between water, fire, and the surrounding environment.",
+        "3": "Used the Baker tool to reduce a complicated vfx down to just 2 particles without any loss in detail.<br></br>Reduced instruction count of fire and water materials with minimal difference in outcome.",
+        "4": "Created  a procedural pipe system that conforms to the desired start and end points, turns, and generates support beams.<br></br>Additionally, fixed existing procedural pipes as needed.",        
+        "5": "Using the sequencer, keyframed camera animations to record the simulation. These were then rendered out, tweaked in Premiere, and sent off to be uploaded to YouTube.",
         "6": "",
         "7": "",
         "8": ""

@@ -22,7 +22,7 @@ xhttp.onreadystatechange = function () {
       openModalPortfolio[index].addEventListener("click", () => {
         modalWrapperPortfolio.innerHTML = `
             <h1 class="text-xl font-medium text-heading">${data.title}</h1>
-            <p class="text-sm text-paragraph font-normal mb-3" style="margin-top: 6px">${data.category}</p>
+            <p class="text-sm text-paragraph font-normal mb-3" style="margin-top: 5px">${data.category}</p>
             <a href="${data.link}" target="_blank" class="flex items-center text-sm text-primary hover:underline w-fit">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path
@@ -41,8 +41,9 @@ xhttp.onreadystatechange = function () {
             <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="assets/images/portfolio-details/${data.video}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jay Shippey - Game Programmer Demo Reel"></iframe></div>
             -->
 
-            <!--<img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />-->
             <div class="vimeo-player" style="padding:56.25% 0 0 0;position:relative; margin-top: 20px"><iframe src="${data.video}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${data.title}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <!--<img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />-->
+
             <!--<h2 class="text-lg text-heading font-medium mt-7">Background</h2>-->
             <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
             <h2 class="text-lg text-heading font-medium mt-7 mb-2">My Contributions</h2>

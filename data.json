@@ -9,7 +9,7 @@
       "introduction": "Online party game where you dress up and play tag and other games as hamsters.",
       "goals_list": {
         "1": "Shader Materials",
-        "2": "Visual Overhaul (Post Processing, Lighting, Shadows)",
+        "2": "Overall Visuals (Post Processing, Lighting, Shadows)",
         "3": "Optimization",
         "4": "Asset Implementation",
         "5": "Tools",

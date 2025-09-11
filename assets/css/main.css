@@ -2002,6 +2002,18 @@ body.theme-indigo {
 }
   */
 
+
+  /* MY STUFF ----------------------------------------------------------*/
+/*
+  .fade-bottom {
+  position: sticky;
+  bottom: 0;
+  height: 40px;
+  background: linear-gradient(to top, rgba(255,255,255,0), var(--theme-bg, white));
+  pointer-events: none;
+}
+  */
+
 @media (max-width: 320px){
   .max-\[320px\]\:ml-2{
     margin-left: 0.5rem;

@@ -1,4 +1,5 @@
 let modalWrapperPortfolio = document.querySelector(".modal-Portfolio");
+let me = document.querySelector(".me");
 let modalWrapperBlog = document.querySelector(".modal-Blog");
 let openModalPortfolio = document.querySelectorAll(".open-modal-portfolio");
 let openModalBlog = document.querySelectorAll(".open-modal-shaders");
@@ -41,12 +42,13 @@ xhttp.onreadystatechange = function () {
             <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="assets/images/portfolio-details/${data.video}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Jay Shippey - Game Programmer Demo Reel"></iframe></div>
             -->
 
-            <div class="vimeo-player" style="padding:56.25% 0 0 0;position:relative; margin-top: 20px"><iframe src="${data.video}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${data.title}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-            <!--<img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md my-7" alt="" />-->
+            <!--<div class="vimeo-player" style="padding:56.25% 0 0 0;position:relative; margin-top: 20px"><iframe src="${data.video}?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="${data.title}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            -->
+            <img src="assets/images/portfolio-details/${data.image}" class="w-full h-64 object-cover rounded-md mt-7" alt="" />
 
             <!--<h2 class="text-lg text-heading font-medium mt-7">Background</h2>-->
             <!--<p class="text-sm text-paragraph font-normal text-justify">${data.introduction}</p> -->
-            <h2 class="text-lg text-heading font-medium mt-7 mb-2">Responsible For:</h2>
+            <h2 class="text-lg text-heading font-medium mt-5">Responsible For:</h2>
             <!-- this code currently puts a bullet point where a thing would be, we don't want that. maybe we just don't do bullet points at all!? 
             what I would like to do is have the bullet point be a thing and then be able to explain it more 
             setting the h2 vs p didn't seem to change things. but getting rid of the text in the comment below made it not be so small fosifeijfiefjei-->
@@ -79,8 +81,8 @@ xhttp.onreadystatechange = function () {
             -->
 
             <!-- USE THIS WHEN YOU HAVE MORE INFO FOR ALL THE GAMES -->
-
-            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[1]}</u></p>
+           
+            <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 10px"><u>${data.goals_list[1]}</u></p>
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[1]}</p>
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[2]}</u></p>
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[2]}</p>
@@ -96,6 +98,15 @@ xhttp.onreadystatechange = function () {
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[7]}</p>
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px"><u>${data.goals_list[8]}</u></p>
             <p class="text-sm text-paragraph font-normal text-justify" style="margin-top: 20px">${data.goals_details[8]}</p>
+
+            <!--
+             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+              <li class="text-sm text-paragraph font-normal" style="margin-top: 10px"><u>${data.goals_list[1]}</u><br/>${data.goals_details[1]}</li>
+              <li class="text-sm text-paragraph font-normal"style="margin-top: 20px"><u>${data.goals_list[2]}</u><br/>${data.goals_details[2]}</li>
+              <li class="text-sm text-paragraph font-normal" style="margin-top: 20px"><u>${data.goals_list[3]}</u><br/>${data.goals_details[3]}</li>
+              <li class="text-sm text-paragraph font-normal" style="margin-top: 20px"><u>${data.goals_list[4]}</u><br/>${data.goals_details[4]}</li>
+            </ul>
+            -->
             
             <!--
             <ul class="list-blank text-sm ml-8 text-paragraph my-4">
